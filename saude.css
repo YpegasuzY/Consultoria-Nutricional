@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/*Header é padrão em todas as páginas*/
 header{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
@@ -27,6 +29,7 @@ header nav ul a{
 }
 
 
+/*iniciada a estilização do id PART-ONE que informa para quem está direcionado o tema*/
 #part-one{
     background-image: url(imagens/saúde.jpg);
     height: 15rem;
@@ -45,6 +48,8 @@ header nav ul a{
     margin-top: 30px;
 }
 
+
+/*id PART-TWO onde falamos do papel crucial da nutrição*/
 #part-two{
     background-color: white;
     height: 25rem;
@@ -73,10 +78,12 @@ header nav ul a{
     width: 40vw;
 }
 
+
+/*id PART-THREE onde falamos da hidratação*/
 #part-three{
     background-color: orangered;
     height: 25rem;
-    color: black;
+    color: white;
     padding: 3em;
     display: flex;
     justify-content: space-around;
@@ -101,45 +108,56 @@ header nav ul a{
     width: 25vw;
 }
 
+
+/*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
 #part-four{
     background-color: white;
     height: 25rem;
     color: black;
     padding: 3em;
+    margin-left: 5.8vw;
 }
 
 #part-four h2{
     font-size: 2em;
     margin-top: 20px;
+    width: 80vw;
     text-align: center;
-    width: 90vw;
 }
 
 #part-four p{
     font-size: 1.5em;
     margin-top: 40px;
     text-align: justify;
-    width: 90vw;
+    width: 80vw;
 }
 
+#part-four p a{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*id PART-FIVE onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
 #part-five{
-    background-color: white;
-    height: 10rem;
-    color: black;
+    background-color: orangered;
+    height: auto;
+    color: white;
     padding: 3em;
     text-align: center;
 }
 
 #part-five h2{
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-bottom: 40px;
 }
 
 #part-five p{
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 
+/*Footer é padrão em todas as páginas*/
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
@@ -155,6 +173,7 @@ footer{
     display: flex;
     list-style: none;
 }
+
 
 footer div a i{
     color: #24d46a;
