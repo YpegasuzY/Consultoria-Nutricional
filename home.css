@@ -33,11 +33,15 @@ footer{
 
 footer div a i{
     color: #24d46a;
-    font-size: 6rem;
+    font-size: 3rem;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
+    margin-top: 30px;
 }
-
+footer div img{
+    width: 30vh;
+    
+}
 footer p{
     text-align: center;
 }
