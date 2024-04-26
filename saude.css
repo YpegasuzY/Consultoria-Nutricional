@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 3vh;
+    background-color: rgb(218, 179, 150);
+    text-align: center;
+}
+
+header div img{
+    width: 30vh;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    margin: 0 25px;
+}
+
+
+#part-one{
+    background-image: url(imagens/saúde.jpg);
+    height: 15rem;
+    color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+#part-one h2{
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+#part-one p{
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+#part-two{
+    background-color: white;
+    height: 25rem;
+    color: black;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#part-two h2{
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    width: 40vw;
+}
+
+#part-two p{
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-align: justify;
+    width: 40vw;
+}
+
+#part-two img{
+    height: auto;
+    width: 40vw;
+}
+
+#part-three{
+    background-color: white;
+    height: 25rem;
+    color: black;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#part-three h2{
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    width: 40vw;
+}
+
+#part-three p{
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-align: justify;
+    width: 40vw;
+}
+
+#part-three img{
+    height: auto;
+    width: 25vw;
+}
+
+#part-four{
+    background-color: orange;
+    height: 10rem;
+    color: black;
+    padding: 3em;
+    text-align: center;
+}
+
+#part-four h2{
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+#part-four p{
+    font-size: 1.5em;
+}
+
+
+footer{
+    padding: 3vh;
+    background-color: rgb(218, 179, 150);
+    display:;
+}
+
+#info-footer{
+    display: flex;
+    align-items: center;
+}
+
+.div-icon ul{
+    display: flex;
+    list-style: none;
+}
+
+footer div a i{
+    color: #24d46a;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 12px;
+}
+#info-footer div img{
+    width: 30vh;
+    
+}
+footer p{
+    text-align: center;
+}
+
+.div-info{
+
+}
