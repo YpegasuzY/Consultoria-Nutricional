@@ -4,7 +4,7 @@
 }
 
 header{
-    padding: 3vh;
+    padding: 3vw;
     background-color: rgb(218, 179, 150);
     text-align: center;
 }
@@ -27,7 +27,7 @@ header nav ul a{
 }
 
 #jm img {
-width: 110em;
+width: 120vw;
 }
 
 
