@@ -26,19 +26,22 @@ header nav ul a{
     margin: 0 25px;
 }
 
-#jm img {
-width: 110em;
-}
-
-
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
 }
 
+footer div a i{
+    color: #24d46a;
+    font-size: 6rem;
+    text-decoration: none;
+    text-align: center;
+}
+
 footer p{
     text-align: center;
 }
+
 /* CSS HEX 
 --sandy-brown: #ff9945ff;
 --peach: #ffbe92ff;
