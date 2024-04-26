@@ -74,7 +74,7 @@ header nav ul a{
 }
 
 #part-three{
-    background-color: white;
+    background-color: orangered;
     height: 25rem;
     color: black;
     padding: 3em;
@@ -102,19 +102,40 @@ header nav ul a{
 }
 
 #part-four{
-    background-color: orange;
+    background-color: white;
+    height: 25rem;
+    color: black;
+    padding: 3em;
+}
+
+#part-four h2{
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    width: 90vw;
+}
+
+#part-four p{
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-align: justify;
+    width: 90vw;
+}
+
+#part-five{
+    background-color: white;
     height: 10rem;
     color: black;
     padding: 3em;
     text-align: center;
 }
 
-#part-four h2{
+#part-five h2{
     font-size: 1.8em;
     margin-bottom: 40px;
 }
 
-#part-four p{
+#part-five p{
     font-size: 1.5em;
 }
 
@@ -122,7 +143,7 @@ header nav ul a{
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
-    display:;
+    display:
 }
 
 #info-footer{
