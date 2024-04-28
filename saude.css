@@ -123,17 +123,25 @@ header nav ul a{
 #part-four h2{
     font-size: 2em;
     margin-top: 20px;
-    margin: 5vw;
+    margin: 3vw;
 }
 
 #part-four p{
     font-size: 1.5em;
     margin-top: 40px;
     text-align: justify;
-    margin: 5vw;
+    margin: 2vw;
 }
 
-#part-four p a{
+#fonte {
+    margin-top: 4em;
+}
+
+#fonte p {
+margin-top: -1em;
+}
+
+#fonte p a{
     font-size: 15px;
 }
 
