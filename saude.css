@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-
 /*Header é padrão em todas as páginas*/
 header{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
     text-align: center;
+    height: auto;
 }
 
 header div img{
@@ -19,6 +19,7 @@ header nav ul{
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 0.9vh;
 }
 
 header nav ul a{
@@ -26,42 +27,42 @@ header nav ul a{
     font-size: 1.3em;
     color: white;
     margin: 0 25px;
+    
 }
 
 
 /*iniciada a estilização do id PART-ONE que informa para quem está direcionado o tema*/
 #part-one{
     background-image: url(imagens/saúde.jpg);
-    height: 15rem;
     color: white;
     text-align: center;
-    padding: 3em;
+    padding: 5em;
+    height: auto;
 }
 
 #part-one h2{
     font-size: 4em;
-    margin-top: 20px;
 }
 
 #part-one p{
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
 /*id PART-TWO onde falamos do papel crucial da nutrição*/
 #part-two{
     background-color: white;
-    height: 25rem;
     color: black;
-    padding: 3em;
+    padding: 4em 0em 5em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
 }
 
 #part-two h2{
     font-size: 2em;
-    margin-top: 20px;
     text-align: center;
     width: 40vw;
 }
@@ -75,7 +76,7 @@ header nav ul a{
 
 #part-two img{
     height: auto;
-    width: 40vw;
+    width: 20em;
 }
 
 
@@ -84,56 +85,55 @@ header nav ul a{
     background-color: orangered;
     height: 25rem;
     color: white;
-    padding: 3em;
+    padding: 4em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
 }
 
 #part-three h2{
     font-size: 2em;
-    margin-top: 20px;
     text-align: center;
     width: 40vw;
 }
 
 #part-three p{
     font-size: 1.5em;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: justify;
     width: 40vw;
 }
 
 #part-three img{
     height: auto;
-    width: 25vw;
+    width: 30vw;
 }
 
 
 /*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
 #part-four{
     background-color: white;
-    height: 25rem;
     color: black;
-    padding: 3em;
-    margin-left: 5.8vw;
+    padding: 5em;
+    text-align: center;
+    height: auto;
 }
 
 #part-four h2{
     font-size: 2em;
     margin-top: 20px;
-    width: 80vw;
-    text-align: center;
+    margin: 5vw;
 }
 
 #part-four p{
     font-size: 1.5em;
     margin-top: 40px;
     text-align: justify;
-    width: 80vw;
+    margin: 5vw;
 }
 
 #part-four p a{
-    text-align: center;
     font-size: 15px;
 }
 
@@ -156,40 +156,52 @@ header nav ul a{
     font-size: 1.4em;
 }
 
-
 /*Footer é padrão em todas as páginas*/
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
-    display:
 }
 
 #info-footer{
     display: flex;
     align-items: center;
+    
 }
 
 .div-icon ul{
     display: flex;
     list-style: none;
+    justify-content: center;
 }
-
 
 footer div a i{
-    color: #24d46a;
+    font-size: 2rem;
+    color: #000000;
     font-size: 2rem;
     text-decoration: none;
-    text-align: left;
-    margin: 0 12px;
+    padding: 0vw 1vw;
 }
+
 #info-footer div img{
     width: 30vh;
-    
 }
+
 footer p{
     text-align: center;
 }
 
 .div-info{
-
+margin: 0vw 8vw;
 }
+
+.div-info h3{
+text-align: center;
+padding: 2vh;
+}
+
+.div-info p{
+text-align: justify;
+}
+
+
+
