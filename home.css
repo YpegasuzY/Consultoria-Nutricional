@@ -4,62 +4,179 @@
 }
 
 header{
-    padding: 3vh;
+    height: 35vh;
+    padding: 1rem;
     background-color: rgb(218, 179, 150);
     text-align: center;
+    align-items: center;
 }
 
 header div img{
     width: 30vh;
 }
 
-header nav ul{
+.linksHeader nav{
     display: flex;
-    list-style: none;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-header nav ul a{
-    text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-    margin: 0 25px;
+.linksHeader ul{
+    display: flex;
+    list-style: none;
+
 }
+
+.linksHeader ul li{
+      margin: 0 20px;
+}
+
+#direcionamento li a{  
+    text-decoration: none;
+    color: black;
+}
+
+#icones li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#introNutri{
+    background-image: url(imagens/bg\ header.jpg);
+    background-position: right;
+    padding: 2rem;
+    height: 50vh;
+    background-size: contain;
+}
+
+#introNutri div{
+    margin: 1.2em 10em;
+    max-width: 30vw;
+
+}
+
+#introNutri div h1{
+    font-size: 2em;
+}
+
+#introNutri div p{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
-    display:;
+    
 }
 
-#info-footer{
+#infoFooter{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 3rem;
 }
 
-.div-icon ul{
+#divIcon ul{
     display: flex;
     list-style: none;
 }
+#divIcon ul a i{
+    margin-left: 22px;
+}
+#divIcon ul a i:hover{
+    transition: 0.2s;
+    font-size: 2em;
+}
 
 footer div a i{
-    color: #24d46a;
     font-size: 2rem;
     text-decoration: none;
     text-align: left;
     margin: 0 12px;
 }
-#info-footer div img{
+
+.divFooter{
+    margin: 0 30px;
+}
+
+#divInfo{
+    max-width: 20vw;
+    text-align: justify;
+}
+#infoFooter div img{
     width: 30vh;
     
 }
 footer p{
+    margin-top: 1em;
     text-align: center;
 }
 
-.div-info{
-
+.whats a i{
+    color: #1abd5b;
+    text-decoration: none;
 }
+
+.insta a i{
+    color: #833ab4;
+    text-decoration: none;
+}
+
+.in a i{
+    color: #0e76a8;
+    text-decoration: none;
+}
+
+#whatsF a:hover{
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+
+
+
 
 /* CSS HEX 
 --sandy-brown: #ff9945ff;
