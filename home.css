@@ -4,8 +4,7 @@
 }
 
 header{
-    height: 35vh;
-    padding: 1rem;
+    padding: 3vh;
     background-color: rgb(218, 179, 150);
     text-align: center;
     align-items: center;
@@ -42,10 +41,10 @@ header div img{
 
 #introNutri{
     background-image: url(imagens/bg\ header.jpg);
-    background-position: right;
-    padding: 2rem;
-    height: 50vh;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3vh;
+    background-size: cover;
 }
 
 #introNutri div{
@@ -63,33 +62,66 @@ header div img{
     font-size: 1.3em;
 }
 
+#esporte{
+    background-image: url(imagens/sessaoEsporte.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 15vh;
+}
 
+#esporte div{
+    margin-left: 4rem;
+    max-width: 36vw;
+    text-align: justify;
+}
 
+#esporte div h2{
+    font-size: 1.7rem;
+}
 
+#esporte div p{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
 
+#esporte div ul li{
+    margin-top: 8px;
+    margin-left: 1.2rem;
+}
 
+#esporte a button{
+    margin-left: 4rem;
+    margin-top: 20px;
+    padding: 1em;
+    width: 10rem;
+    border-radius: 3em;
+    border-color: #ffbe92ff;
+    background-color: #ebebebff;
+    cursor: pointer;
+}
 
+#esporte a button:hover{
+    background-color: #fffba5ff;
+    border-color: white;
+    transition: 0.7s;
+}
 
+#saude{
+    background-image: url(imagens/sessaoSaude.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 15vh;
+    text-align: right;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#saude div{
+    max-width: 36vw;
+    text-align: justify;
+  
+}
 
 
 
@@ -170,8 +202,8 @@ footer p{
 }
 
 #whatsF a:hover{
-    font-size: 1.2rem;
-    transition: 0.2s;
+    font-size: 1.1rem;
+    transition: 0.1s;
 }
 
 
