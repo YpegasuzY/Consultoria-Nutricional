@@ -7,24 +7,43 @@ header{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
     text-align: center;
+    align-items: center;
 }
 
 header div img{
     width: 30vh;
 }
 
-header nav ul{
+.linksHeader nav{
     display: flex;
-    list-style: none;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-header nav ul a{
-    text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-    margin: 0 25px;
+.linksHeader ul{
+    display: flex;
+    list-style: none;
+
 }
+
+.linksHeader ul li{
+      margin: 0 20px;
+}
+
+#direcionamento li a{  
+    text-decoration: none;
+    color: black;
+}
+
+#icones li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#icones li a:hover{
+    font-size: 1.55em;
+    transition: 0.4s;
+}
+
 .esporte a i{
     font-size: 6rem;
     text-decoration: none;
@@ -34,18 +53,73 @@ header nav ul a{
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
+    
+}
+
+#infoFooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+#divIcon ul{
+    list-style: none;
+    display: flex;
 }
 
 footer div a i{
-    color: #24d46a;
-    font-size: 6rem;
-    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 12px;
+}
+
+#divIcon ul a i:hover{
+    transition: 0.2s;
+    font-size: 2.1em;
+}
+
+.divFooter h3{
+    text-align: center;
+}
+.divFooter p{
+    margin: 0 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+#divInfo{
+    max-width: 20vw;
+    text-align: justify;
+}
+#infoFooter div img{
+    width: 30vh;
+    
+}
+footer p{
+    margin-top: 1em;
     text-align: center;
 }
 
-footer p{
-    text-align: center;
+#divContatos p{
+   margin-top: 40px;
+   
 }
+#divContatos p a{
+    text-decoration: none;
+    color: black;
+}
+
+.whats a i{
+    color: #1abd5b;
+}
+
+.insta a i{
+    color: #833ab4;
+}
+
+.in a i{
+    color: #0e76a8;
+}
+
 
 /* CSS HEX 
 --sandy-brown: #ff9945ff;

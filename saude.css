@@ -4,32 +4,47 @@
 }
 
 /*Header é padrão em todas as páginas*/
+
 header{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
     text-align: center;
-    height: auto;
+    align-items: center;
 }
 
 header div img{
     width: 30vh;
 }
 
-header nav ul{
+.linksHeader nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linksHeader ul{
     display: flex;
     list-style: none;
-    justify-content: center;
-    padding: 0.9vh;
+
 }
 
-header nav ul a{
+.linksHeader ul li{
+      margin: 0 20px;
+}
+
+#direcionamento li a{  
     text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-    margin: 0 25px;
-    
+    color: black;
 }
 
+#icones li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#icones li a:hover{
+    font-size: 1.55em;
+    transition: 0.4s;
+}
 
 /*iniciada a estilização do id PART-ONE que informa para quem está direcionado o tema*/
 #part-one{
@@ -168,48 +183,73 @@ margin-top: -1em;
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
-}
-
-#info-footer{
-    display: flex;
-    align-items: center;
     
 }
 
-.div-icon ul{
+#infoFooter{
     display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+#divIcon ul{
     list-style: none;
-    justify-content: center;
+    display: flex;
 }
 
 footer div a i{
     font-size: 2rem;
-    color: #000000;
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 0vw 1vw;
+    margin: 0 12px;
 }
 
-#info-footer div img{
+#divIcon ul a i:hover{
+    transition: 0.2s;
+    font-size: 2.1em;
+}
+
+.divFooter h3{
+    text-align: center;
+}
+.divFooter p{
+    margin: 0 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+#divInfo{
+    max-width: 20vw;
+    text-align: justify;
+}
+#infoFooter div img{
     width: 30vh;
+    
 }
-
 footer p{
+    margin-top: 1em;
     text-align: center;
 }
 
-.div-info{
-margin: 0vw 8vw;
+#divContatos p{
+   margin-top: 40px;
+   
+}
+#divContatos p a{
+    text-decoration: none;
+    color: black;
 }
 
-.div-info h3{
-text-align: center;
-padding: 2vh;
+.whats a i{
+    color: #1abd5b;
 }
 
-.div-info p{
-text-align: justify;
+.insta a i{
+    color: #833ab4;
 }
+
+.in a i{
+    color: #0e76a8;
+}
+
 
 
 

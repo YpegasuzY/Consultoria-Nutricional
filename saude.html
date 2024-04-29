@@ -12,26 +12,50 @@
 
 <body>
     <header>
-        <div><img src="imagens/Logo - DGW.png" alt="logo Juliana Marques Consultoria Nutricional"></div>
-        <nav>
-            <ul id="direcionamento">
-                <li> <a href="home.html">HOME</a></li>
-                <!--  -->
-                <li> <a href>SERVIÇOS</a></li>
-                <!--  -->
-                <li> <a href>CONTATOS</a></li>
-            </ul>
-        </nav>
+        <div id="imagemHeader">
+            <img src="imagens/Logo - DGW.png"
+                alt="logo Juliana Marques Consultoria Nutricional">
+        </div>
 
-        <nav>
-            <ul id="icones">
-                <li> <a href> <i class="fa-brands fa-whatsapp" id="whats"></i> </a> </li>
-                <!--  -->
-                <li> <a href> <i class="fa-brands fa-instagram" id="insta"></i> </a> </li>
-                <!--  -->
-                <li> <a href> <i class="fa-brands fa-linkedin" id="in"> </i> </a> </li>
-            </ul>
-        </nav>
+        <div class="linksHeader">
+            <nav>
+                <ul id="direcionamento">
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <!--  -->
+                    <li>
+                        <a href="#esporte">SERVIÇOS</a>
+                    </li>
+                    <!--  -->
+                    <li>
+                        <a href="#divContatos">CONTATOS</a>
+                    </li>
+                </ul>
+
+                <ul id="icones">
+                    <li class="whats">
+                        <a href>
+                            <i class="fa-brands fa-whatsapp" id="whats"></i>
+                        </a>
+                    </li>
+                    <!--  -->
+
+                    <li class="insta">
+                        <a href>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <!--  -->
+
+                    <li class="in">
+                        <a href>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -110,22 +134,37 @@
     </section>
 
     <footer>
-        <div id="info-footer">
-            <div class="div-icon">
-                <img src="imagens/Logo-marca.png" alt="logo Juliana Marques Consultoria Nutricional">
+        <div id="infoFooter" class="divFooter">
+            <div id="divIcon">
+                <img src="imagens/Logo-marca.png"
+                    alt="logo Juliana Marques Consultoria Nutricional">
                 <nav>
                     <ul>
-                        <li> <a href> <i class="fa-brands fa-whatsapp" id="whats"></i> </a> </li>
+                        <li class="whats" id="whatsF">
+                            <a href>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
                         <!--  -->
-                        <li> <a href> <i class="fa-brands fa-instagram" id="insta"></i> </a> </li>
+
+                        <li class="insta" id="instaF">
+                            <a href>
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
                         <!--  -->
-                        <li> <a href> <i class="fa-brands fa-linkedin" id="in"> </i> </a> </li>
+
+                        <li class="in" id="inF">
+                            <a href>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
 
-            <div class="div-info">
-                <h3>SOBRE NÓS</h3>
+            <div id="divInfo" class="divFooter">
+                <h3>SOBRE NOS</h3>
                 <p>Ajudo você a atingir seus objetivos de saúde e bem-estar
                     por meio de um plano alimentar personalizado que
                     considera suas necessidades e preferências individuais.
@@ -133,6 +172,12 @@
                     nutricional para ajudá-lo a fazer escolhas alimentares
                     saudáveis.</p>
             </div>
+            <div id="divContatos" class="divFooter">
+                <h3>CONTATOS</h3>
+                <p>EMAIL:<a href>Exemplo@email.com</a></p>
+                <p>TEL:(99)99999-9999</p>
+            </div>
+
         </div>
 
         <p>Copyright &copy; 2024 Juliana Marques Nutricionista. Todos os

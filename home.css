@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* cabeçalho */
 header{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
@@ -44,6 +44,7 @@ header div img{
     transition: 0.4s;
 }
 
+/* primeira sessão */
 #introNutri{
     background-image: url(imagens/bg\ header.jpg);
     background-repeat: no-repeat;
@@ -67,6 +68,7 @@ header div img{
     font-size: 1.3em;
 }
 
+/* segunda sessão */
 #esporte{
     background-image: url(imagens/sessaoEsporte.jpg);
     background-repeat: no-repeat;
@@ -112,6 +114,7 @@ header div img{
     transition: 0.7s;
 }
 
+/* tercerira sessão */
 #saude{
     background-image: url(imagens/sessaoSaude.jpg);
     background-repeat: no-repeat;
@@ -157,6 +160,7 @@ header div img{
     transition: 0.7s;
 }
 
+/* rodapé */
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
@@ -230,7 +234,7 @@ footer p{
 
 
 
-
+/* paleta de cores usadas, algumas foram semelhantes e não estão aqui listadas */
 /* CSS HEX 
 --sandy-brown: #ff9945ff;
 --peach: #ffbe92ff;
