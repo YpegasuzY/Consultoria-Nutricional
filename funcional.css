@@ -36,11 +36,11 @@ header img {
     display: none;
     position: absolute;
     background: rgba(255, 255, 255, 0.97);
-    margin-left: -1.2vw;
 }
 
 .menu .submenu {
 margin-top: 8px;
+margin-left: -15px;
 }
 
 .submenu a {
