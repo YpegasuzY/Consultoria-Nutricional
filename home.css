@@ -34,6 +34,27 @@ header div img{
     color: black;
 }
 
+.submenu {
+display: none; 
+position: absolute;
+background-color: white;
+}
+
+.submenu a:hover {
+background-color: rgb(255, 204, 0);
+transition: 0.3s;
+}
+
+.submenu a {
+display: block;
+padding: 3vh;
+}
+
+.menu:hover .submenu {
+display: block;
+transition: 2ms;
+}
+
 #icones li a{
     text-decoration: none;
     font-size: 1.5em;
@@ -42,15 +63,13 @@ header div img{
 #introNutri{
     background-image: url(imagens/bg\ header.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    padding: 3vh;
+    padding: 9em;
     background-size: cover;
 }
 
 #introNutri div{
-    margin: 1.2em 10em;
-    max-width: 30vw;
-
+    margin: 1em 2em;
+    max-width: 40vw;
 }
 
 #introNutri div h1{
@@ -58,7 +77,7 @@ header div img{
 }
 
 #introNutri div p{
-    margin-top: 10px;
+    margin: 0.8em 0em;
     font-size: 1.3em;
 }
 
@@ -120,7 +139,6 @@ header div img{
 #saude div{
     max-width: 36vw;
     text-align: justify;
-  
 }
 
 
