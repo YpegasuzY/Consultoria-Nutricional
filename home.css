@@ -27,6 +27,7 @@ header div img{
 
 .linksHeader ul li{
       margin: 0 20px; /* para dar margem */
+<<<<<<< Updated upstream
 }
 
 .submenu {
@@ -52,6 +53,8 @@ margin-top: 8px;
 
 .menu:hover .submenu {
 display: block;
+=======
+>>>>>>> Stashed changes
 }
 
 #direcionamento li a{  
