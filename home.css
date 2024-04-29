@@ -1,37 +1,32 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /* para deixar a pagina sem margem */
+    padding: 0; /* para deixar a pagina sem respito */
 }
 /* cabeçalho */
 header{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
-    text-align: center;
-    align-items: center;
+    padding: 3vh; /* para dar respiro no header */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
+    text-align: center; /* alinhamento do texto */
+    align-items: center; /* alinhamento dos itens */
 }
 
 header div img{
-    width: 30vh;
+    width: 30vh; /* largura da div do header */
 }
 
 .linksHeader nav{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* para deixar um ao lado do outro */
+    justify-content: space-around; /* para dar espaço nos itens de forma igual */
 }
 
 .linksHeader ul{
-    display: flex;
-    list-style: none;
+    display: flex; /* para deixar um ao lado do outro */
+    list-style: none; /* para deixar sem estilo de lista */
 
 }
 
 .linksHeader ul li{
-      margin: 0 20px;
-}
-
-#direcionamento li a{  
-    text-decoration: none;
-    color: black;
+      margin: 0 20px; /* para dar margem */
 }
 
 .submenu {
@@ -59,206 +54,213 @@ margin-top: 8px;
 display: block;
 }
 
+#direcionamento li a{  
+    text-decoration: none; /* para tirar o estilo do texto */
+    color: black; /* cor da fonte */
+}
+
 #icones li a{
-    text-decoration: none;
-    font-size: 1.5em;
+    text-decoration: none; /* para tirar o estilo do texto */
+    font-size: 1.5em; /* tamanho da fonte */
 }
 
 #icones li a:hover{
-    font-size: 1.55em;
-    transition: 0.4s;
+    font-size: 1.55em; /* tamanho da fonte */
+    transition: 0.4s; /* tempo para mudar ao passar o mouse */
 }
 
 /* primeira sessão */
 #introNutri{
-    background-image: url(imagens/bg\ header.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 2vw;
-    background-size: cover;
+    background-image: url(imagens/bg\ header.jpg); /* imagem de fundo */
+    background-repeat: no-repeat; /* para a imagem não repetir */
+    background-position: center; /* para posicionar a imagem */
+    padding: 3vh; /* respiro do conteudo */
+    background-size: cover; /* para ajustar o tamanho da imagem */
 }
 
 #introNutri div{
-    margin: 1.2em 10em;
-    max-width: 30vw;
+    margin: 1.2em 10em; /* margem do conteudo */
+    max-width: 30vw; /* para ajustar o tamanho maximo da div */
 
 }
 
 #introNutri div h1{
-    font-size: 2em;
+    font-size: 2em; /* tamanho da fonte */
 }
 
 #introNutri div p{
-    margin-top: 10px;
-    font-size: 1.3em;
+    margin-top: 10px; /* margem com relação ao conteudo de cima */
+    font-size: 1.3em; /* tamanho de fonte */
 }
 
 /* segunda sessão */
 #esporte{
-    background-image: url(imagens/sessaoEsporte.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    padding: 15vh;
+    background-image: url(imagens/sessaoEsporte.jpg); /* imagem de fundo */
+    background-repeat: no-repeat; /* para não repetir */
+    background-position: left; /* posição da imagem */
+    background-size: cover; /* tamanho da imagem */
+    padding: 15vh; /* respiro do conteudo */
 }
 
 #esporte div{
-    margin-left: 4rem;
-    max-width: 36vw;
-    text-align: justify;
+    margin-left: 4rem; /* margem da esquerda */
+    max-width: 36vw; /* largura maxima da div */
+    text-align: justify; /* alinhamento de texto */
 }
 
 #esporte div h2{
-    font-size: 1.7rem;
+    font-size: 1.7rem; /* tamanho da fonte */
 }
 
 #esporte div p{
-    margin-top: 15px;
-    font-size: 1.2em;
+    margin-top: 15px; /* margem em relaçao ao conteudo acima */
+    font-size: 1.2em; /* tamanho da fonte */
 }
 
 #esporte div ul li{
-    margin-top: 8px;
-    margin-left: 1.2rem;
+    margin-top: 8px; /* margem de cima */
+    margin-left: 1.2rem; /* margem da esquerda */
 }
 
 #esporte a button{
-    margin-left: 4rem;
-    margin-top: 20px;
-    padding: 1em;
-    width: 10rem;
-    border-radius: 3em;
-    border-color: #ffbe92ff;
-    background-color: #ebebebff;
-    cursor: pointer;
+    margin-left: 4rem; /* margem da esquerda */
+    margin-top: 20px; /* margem de cima */
+    padding: 1em; /* respiro do botão */
+    width: 10rem; /* largura */
+    border-radius: 3em; /* arredondamento da borda do botão */
+    border-color: #ffbe92ff; /* cor da borda */
+    background-color: #ebebebff; /* cor do fundo do botão */
+    cursor: pointer; 
 }
 
 #esporte a button:hover{
-    background-color: #fffba5ff;
-    border-color: white;
-    transition: 0.7s;
+    background-color: #fffba5ff; /* cor de fundo ao passar o mouse */
+    border-color: white; /* cor da borda ao passar o mouse */
+    transition: 0.7s; /* tempo de transição */
 }
 
 /* tercerira sessão */
 #saude{
-    background-image: url(imagens/sessaoSaude.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    padding: 15vh;
-    display: grid;
-    justify-content: right;
+    background-image: url(imagens/sessaoSaude.jpg); /* imagem de fundo */
+    background-repeat: no-repeat; /* para não repetir */
+    background-position: left; /* posição da imagem de fundo */
+    background-size: cover; /* tamanho da imagem de fundo */
+    padding: 15vh; /* respiro do conteudo */
+    display: grid; /* display em grade para manuseio do conteudo em grade */
+    justify-content: right; /* justificar conteudo a direita */
 }
 
 #saude div{
-    max-width: 36vw;
-    text-align: justify;
+    max-width: 36vw; /* largura maxima da div */
+    text-align: justify; /* alinhamento do texto */
 }
 
 #saude div h2{
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* tamanho da fonte do titulo */
 }
 
 #saude div p{
-    margin-top: 15px;
-    font-size: 1.2em;
+    margin-top: 15px; /* margem em relação ao conteudo superior */
+    font-size: 1.2em; /* tamanho da fonte */
 }
 
 #saude div ul li{
-    margin-top: 8px;
-    margin-left: 1.2rem;
+    margin-top: 8px; /* margem em relação ao conteudo acima */
+    margin-left: 1.2rem; /* margem em da esquerda */
 }
 
 #saude a button{
-    margin-top: 20px;
-    padding: 1em;
-    width: 10rem;
-    border-radius: 3em;
-    border-color: #ffbe92ff;
-    background-color: #ebebebff;
-    cursor: pointer;
+    margin-top: 20px; /* margem de cima */
+    padding: 1em; /* respiro do conteudo a borda do botão */
+    width: 10rem; /* largura do botão */
+    border-radius: 3em; /* arredondamento da borda */
+    border-color: #ffbe92ff; /* cor da borda */
+    background-color: #ebebebff; /* cor do fundo */
+    cursor: pointer; /* tipo de cursos */
 }
 
 #saude a button:hover{
-    background-color: #fffba5ff;
-    border-color: white;
-    transition: 0.7s;
+    background-color: #fffba5ff; /* cor de fundo ao passar o mouse */
+    border-color: white; /* cor da borda ao passar o mouse */
+    transition: 0.7s; /* tempo da alteração */
 }
 
 /* rodapé */
 footer{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
+    padding: 3vh; /* respiro do conteudo */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
     
 }
 
 #infoFooter{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 3rem;
+    display: flex; /* display flexivel */
+    justify-content: space-evenly; /* justificando o conteudo */
+    padding: 3rem; /* respiro do conteudo */
 }
 
 #divIcon ul{
-    list-style: none;
-    display: flex;
+    list-style: none; /* estilo de lista */
+    display: flex; /* display flexivel */
 }
 
 footer div a i{
-    font-size: 2rem;
-    margin: 0 12px;
+    font-size: 2rem; /* tamanho da fonte */
+    margin: 0 12px; /* margem */
 }
 
 #divIcon ul a i:hover{
-    transition: 0.2s;
-    font-size: 2.1em;
+    transition: 0.2s; /* tempo de transição */
+    font-size: 2.1em; /* tamanho da fonte */
 }
 
 .divFooter h3{
-    text-align: center;
+    text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px;
-    text-align: justify;
-    font-size: 14px;
+    margin: 0 30px; /* margem do paragrafo */
+    text-align: justify; /* alinhamento do texto */
+    font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw;
-    text-align: justify;
+    max-width: 20vw; /* largura maxima */
+    text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
-    width: 30vh;
+    width: 30vh; /* largura */
     
 }
 footer p{
-    margin-top: 1em;
-    text-align: center;
+    margin-top: 1em; /* margem superior */
+    text-align: center; /* alinhamento do texto */
 }
 
 #divContatos p{
-   margin-top: 40px;
+   margin-top: 40px; /* margem superior */
    
 }
 #divContatos p a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* decoração do texto */
+    color: black; /* cor da fonte */
 }
 
 .whats a i{
-    color: #1abd5b;
+    color: #1abd5b; /* cor do icone do whatsapp */
 }
 
 .insta a i{
-    color: #833ab4;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text; /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
 }
 
 .in a i{
-    color: #0e76a8;
+    color: #0e76a8; /* cor do icone do linkedin */
 }
 
 
 
-
+/*  */
 /* paleta de cores usadas, algumas foram semelhantes e não foram listadas */
 /* CSS HEX 
 --sandy-brown: #ff9945ff;
