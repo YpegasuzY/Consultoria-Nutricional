@@ -36,6 +36,31 @@ header div img{
     color: black;
 }
 
+.submenu {
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.97);
+    margin-left: -1.2vw;
+}
+
+.menu .submenu {
+margin-top: 8px;
+}
+
+.submenu a {
+    display: block;
+    padding: 2vh;
+}
+
+.submenu a:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.menu:hover .submenu {
+display: block;
+}
+
 #icones li a{
     text-decoration: none;
     font-size: 1.5em;
