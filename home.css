@@ -39,6 +39,11 @@ header div img{
     font-size: 1.5em;
 }
 
+#icones li a:hover{
+    font-size: 1.55em;
+    transition: 0.4s;
+}
+
 #introNutri{
     background-image: url(imagens/bg\ header.jpg);
     background-repeat: no-repeat;
@@ -113,30 +118,44 @@ header div img{
     background-position: left;
     background-size: cover;
     padding: 15vh;
-    text-align: right;
-    
+    display: grid;
+    justify-content: right;
 }
 
 #saude div{
     max-width: 36vw;
     text-align: justify;
-  
 }
 
+#saude div h2{
+    font-size: 1.5rem;
+}
 
+#saude div p{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
 
+#saude div ul li{
+    margin-top: 8px;
+    margin-left: 1.2rem;
+}
 
+#saude a button{
+    margin-top: 20px;
+    padding: 1em;
+    width: 10rem;
+    border-radius: 3em;
+    border-color: #ffbe92ff;
+    background-color: #ebebebff;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
+#saude a button:hover{
+    background-color: #fffba5ff;
+    border-color: white;
+    transition: 0.7s;
+}
 
 footer{
     padding: 3vh;
@@ -146,31 +165,32 @@ footer{
 
 #infoFooter{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 3rem;
 }
 
 #divIcon ul{
-    display: flex;
     list-style: none;
-}
-#divIcon ul a i{
-    margin-left: 22px;
-}
-#divIcon ul a i:hover{
-    transition: 0.2s;
-    font-size: 2em;
+    display: flex;
 }
 
 footer div a i{
     font-size: 2rem;
-    text-decoration: none;
-    text-align: left;
     margin: 0 12px;
 }
 
-.divFooter{
+#divIcon ul a i:hover{
+    transition: 0.2s;
+    font-size: 2.1em;
+}
+
+.divFooter h3{
+    text-align: center;
+}
+.divFooter p{
     margin: 0 30px;
+    text-align: justify;
+    font-size: 14px;
 }
 
 #divInfo{
@@ -186,24 +206,25 @@ footer p{
     text-align: center;
 }
 
+#divContatos p{
+   margin-top: 40px;
+   
+}
+#divContatos p a{
+    text-decoration: none;
+    color: black;
+}
+
 .whats a i{
     color: #1abd5b;
-    text-decoration: none;
 }
 
 .insta a i{
     color: #833ab4;
-    text-decoration: none;
 }
 
 .in a i{
     color: #0e76a8;
-    text-decoration: none;
-}
-
-#whatsF a:hover{
-    font-size: 1.1rem;
-    transition: 0.1s;
 }
 
 
