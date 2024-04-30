@@ -62,14 +62,13 @@ display: block;
     padding: 4rem;
 }
 
-.imagem {
-    background-image: url(https://dglab.com.br/wp-content/uploads/2021/09/Nutric%CC%A7a%CC%83o-funcional-840x400.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 25rem;
+.imagem img {
+    
 }
 
 .titulo {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -80,3 +79,21 @@ display: block;
 #paragrafo {
     margin-top: 8rem;
     padding: 5rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#alimentos {
+    margin-top: 3rem;
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.div-img img  {
+    width: 20rem;
+    height: 15rem;
+}
