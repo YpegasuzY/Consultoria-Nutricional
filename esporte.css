@@ -1,86 +1,233 @@
-*{
-    margin: 0; /* para deixar a pagina sem margem */
-    padding: 0; /* para deixar a pagina sem respito */
+* {
+    margin: 0;
+    /* para deixar a pagina sem margem */
+    padding: 0;
+    /* para deixar a pagina sem respito */
 }
+
 /* cabeçalho */
-header{
-    padding: 3vh; /* para dar respiro no header */
-    background-color: rgb(218, 179, 150); /* cor de fundo */
-    text-align: center; /* alinhamento do texto */
-    align-items: center; /* alinhamento dos itens */
+header {
+    padding: 3vh;
+    /* para dar respiro no header */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
+    text-align: center;
+    /* alinhamento do texto */
+    align-items: center;
+    /* alinhamento dos itens */
 }
 
-header div img{
-    width: 30vh; /* largura da div do header */
+header div img {
+    width: 30vh;
+    /* largura da div do header */
 }
 
-.linksHeader nav{
-    display: flex; /* para deixar um ao lado do outro */
-    justify-content: space-around; /* para dar espaço nos itens de forma igual */
+.linksHeader nav {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    justify-content: space-around;
+    /* para dar espaço nos itens de forma igual */
 }
 
-.linksHeader ul{
-    display: flex; /* para deixar um ao lado do outro */
-    list-style: none; /* para deixar sem estilo de lista */
+.linksHeader ul {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    list-style: none;
+    /* para deixar sem estilo de lista */
 
 }
 
-.linksHeader ul li{
-      margin: 0 20px; /* para dar margem */
+.linksHeader ul li {
+    margin: 0 20px;
+    /* para dar margem */
 }
 
 .submenu {
-    display: none; /* desaparecimento do conteúdo */
-    position: absolute; /* deixar o título do topo */
-    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
+    display: none;
+    /* desaparecimento do conteúdo */
+    position: absolute;
+    /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97);
+    /* cor de fundo */
 }
 
-.menu .submenu { /* organização do menu */
-margin-top: 8px; 
-margin-left: -20px;
+.menu .submenu {
+    /* organização do menu */
+    margin-top: 8px;
+    margin-left: -20px;
 }
 
-.submenu a { 
-    display: block; /* deixa os submenus um embaixo do outro */
+.submenu a {
+    display: block;
+    /* deixa os submenus um embaixo do outro */
     padding: 2vh;
 }
 
-.submenu a:hover { /* config. do menu */
-    background-color: orange; 
+.submenu a:hover {
+    /* config. do menu */
+    background-color: orange;
     transition: 0.5s;
 }
 
-.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
-display: block;
+.menu:hover .submenu {
+    /* apenas apareça caso o mouse passe por cima */
+    display: block;
 }
 
-#direcionamento li a{  
-    text-decoration: none; /* para tirar o estilo do texto */
-    color: black; /* cor da fonte */
+#direcionamento li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    color: black;
+    /* cor da fonte */
 }
 
-#icones li a{
-    text-decoration: none; /* para tirar o estilo do texto */
-    font-size: 1.5em; /* tamanho da fonte */
+#icones li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    font-size: 1.5em;
+    /* tamanho da fonte */
 }
 
-#icones li a:hover{
-    font-size: 1.55em; /* tamanho da fonte */
-    transition: 0.4s; /* tempo para mudar ao passar o mouse */
+#icones li a:hover {
+    font-size: 1.55em;
+    /* tamanho da fonte */
+    transition: 0.4s;
+    /* tempo para mudar ao passar o mouse */
 }
 
 #titulo {
-background-image: url(imagens/esporte.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url(imagens/esporte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -1px;
 }
 
 #titulo div {
-padding: 15em;
-color: white;
-text-align: center;
+    padding: 3em;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+#titulo h2 {
+    padding: 0px 15px;
+}
+
+#pt1 {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    background-color: #ebebebff;
+}
+
+#pt1 div {
+    padding-right: 1em;
+}
+
+#pt1 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#pt1 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pt1 img {
+    width: 30em;
+    padding-left: 1em;
+}
+
+#pt2 {
+padding: 10vw;
 display: flex;
 align-items: center;
+background-color: #ff9945ff;
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+
+}
+
+#pt2 div {
+    padding-right: 1em;
+}
+
+#pt1 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #ff9945ff;
+    ;
+}
+
+#pt2 p {
+    font-size: 28px;
+    text-align: justify;
+    padding-right: 2em;
+}
+
+#pt2 img {
+    width: 30em;
+    padding-left: 2em;
+}
+
+#pt3 {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    background-color: #ebebebff;
+}
+
+#pt3 p {
+    font-size: 28px;
+    text-align: justify;
+    padding-left: 2em;
+}
+
+#pt3 img {
+    width: 30em;
+    padding-right: 2em;
+}
+
+/*id pt4 onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
+#pt4 {
+    background-color: #ff9945ff;
+    /* cor do fundo */
+    height: auto;
+    /* altura automatica */
+    color: white;
+    /* cor do texto */
+    padding: 3em;
+    /* respiro dp conteudo */
+    text-align: center;
+    /* alinhamento do texto */
+}
+
+#pt4 h2 {
+    font-size: 1.6em;
+    /* tamanho da fonte */
+    margin-bottom: 40px;
+    /* margem inferior */
+}
+
+#pt4 p {
+    font-size: 1.4em;
+    /* tamanho da fonte */
+}
+
+#part-five a {
+    color: rgb(183, 0, 255);
+    /* cor do texto */
+    cursor: pointer;
+    /* cursor ao passar o mouse */
+    text-decoration: none;
+    /* decoração do texto */
 }
 
 /* rodapé */
@@ -91,14 +238,28 @@ footer{
 }
 
 #infoFooter{
-    display: flex; /* display flexivel */
-    justify-content: space-evenly; /* justificando o conteudo */
-    padding: 3rem; /* respiro do conteudo */
+    display: flex; /* display flexivel */ 
+    padding: 2rem; /* respiro do conteudo */
+    display: flex;
+    justify-content: center;
+}
+
+#infoFooter div{
+    margin: 3vw;
+}
+
+#divInfo h3{
+    font-size: 1.7rem;
+}
+
+#divInfo p{
+    font-size: 1.3rem;
 }
 
 #divIcon ul{
     list-style: none; /* estilo de lista */
     display: flex; /* display flexivel */
+    justify-content: center; /* icones centralizados com a imagem */
 }
 
 footer div a i{
@@ -115,13 +276,13 @@ footer div a i{
     text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px; /* margem do paragrafo */
+    margin: 0 20px; /* margem do paragrafo */
     text-align: justify; /* alinhamento do texto */
     font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw; /* largura maxima */
+    width: 20rem;
     text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
@@ -155,7 +316,6 @@ footer p{
 .in a i{
     color: #0e76a8; /* cor do icone do linkedin */
 }
-
 
 /* CSS HEX 
 --sandy-brown: #ff9945ff;

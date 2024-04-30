@@ -36,18 +36,12 @@ header div img{
 }
 
 .menu .submenu { /* organização do menu */
-<<<<<<< Updated upstream
 margin-top: 8px; /* margem superior */
 margin-left: -15px; /* margem da esquerda */
-=======
-<<<<<<< HEAD
 margin-top: 8px; 
 margin-left: -20px;
-=======
 margin-top: 8px; /* margem superior */
 margin-left: -15px; /* margem da esquerda */
->>>>>>> 9a746f6e54a0266fc7d3e2429de252e44d98a317
->>>>>>> Stashed changes
 }
 
 .submenu a { 
@@ -225,9 +219,22 @@ footer{
 }
 
 #infoFooter{
-    display: flex; /* display flexivel */
-    justify-content: space-evenly; /* justificando o conteudo */
-    padding: 3rem; /* respiro do conteudo */
+    display: flex; /* display flexivel */ 
+    padding: 2rem; /* respiro do conteudo */
+    display: flex;
+    justify-content: center;
+}
+
+#infoFooter div{
+    margin: 3vw;
+}
+
+#divInfo h3{
+    font-size: 1.7rem;
+}
+
+#divInfo p{
+    font-size: 1.3rem;
 }
 
 #divIcon ul{
@@ -250,13 +257,13 @@ footer div a i{
     text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px; /* margem do paragrafo */
+    margin: 0 20px; /* margem do paragrafo */
     text-align: justify; /* alinhamento do texto */
     font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw; /* largura maxima */
+    width: 20rem;
     text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
@@ -450,6 +457,7 @@ footer #divInfo .divFooter p{
 
 
 
+/*  */
 
 /* paleta de cores usadas, algumas foram semelhantes e não foram listadas */
 /* CSS HEX 
