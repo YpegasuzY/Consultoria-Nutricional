@@ -203,6 +203,7 @@ footer{
 #divIcon ul{
     list-style: none; /* estilo de lista */
     display: flex; /* display flexivel */
+    justify-content: center; /* icones centralizados com a imagem */
 }
 
 footer div a i{
