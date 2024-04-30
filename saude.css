@@ -36,22 +36,22 @@ header div img{
 }
 
 .menu .submenu { /* organização do menu */
-margin-top: 8px; 
-margin-left: -15px;
+margin-top: 8px; /* margem superior */
+margin-left: -15px; /* margem da esquerda */
 }
 
 .submenu a { 
     display: block; /* deixa os submenus um embaixo do outro */
-    padding: 2vh;
+    padding: 2vh; /* respiro da pagina */
 }
 
 .submenu a:hover { /* config. do menu */
-    background-color: orange; 
-    transition: 0.5s;
+    background-color: orange; /* cor do fundo */
+    transition: 0.5s; /* tempo de transição */
 }
 
 .menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
-display: block;
+display: block; /* display em bloco */
 }
 
 #direcionamento li a{  
@@ -123,166 +123,166 @@ display: block;
     height: 25rem; /* altura da seção */
     color: white; /* cor de texto */
     padding: 4em; /* respiro da seção */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: flex; /* tornar o display flex */
+    justify-content: space-evenly; /* justificar conteudo */
+    align-items: center; /* alinhar os itens */
     height: auto; /* altura responsiva */ 
 }
 
 #part-three h2{
-    font-size: 2em;
-    text-align: center;
-    width: 40vw;
+    font-size: 2em; /* tamanho da fonte */
+    text-align: center; /* alinhamento de texto */
+    width: 40vw; /* largura */
 }
 
 #part-three p{
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-align: justify;
-    width: 40vw;
+    font-size: 1.5em; /* tamanho da fonte */
+    margin-top: 20px; /* margem superior */
+    text-align: justify; /* alinhamento de texto */
+    width: 40vw; /* largura */
 }
 
 #part-three img{
-    height: auto; /* altura responsiva */
-    width: 30vw;
+    height: auto; /* altura automatica */
+    width: 30vw; /* largura de acordo com o view port */
 }
 
 
 /*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
 #part-four{
-    background-color: #ebebebff;
-    color: black;
-    padding: 5em;
-    text-align: center;
+    background-color: #ebebebff; /* cor de fundo */
+    color: black; /* cor do texto */
+    padding: 5em; /* respiro da pagina */
+    text-align: center; /* alinhamento de texto */
     height: auto; /* altura responsiva */
 }
 
 #part-four h2{
-    font-size: 2em;
-    margin-top: 20px;
-    margin: 3vw;
+    font-size: 2em; /* tamanho da fonte */
+    margin-top: 20px; /* margem superior */
+    margin: 3vw; /* margem dos quatro lados */
 }
 
 #part-four p{
-    font-size: 1.5em;
-    margin-top: 40px;
-    text-align: justify;
-    margin: 2vw;
+    font-size: 1.5em; /* tamanho da fonte */
+    margin-top: 40px; /* margem superior */
+    text-align: justify; /* alinhamento de texto */
+    margin: 2vw; /* margem de todos os lados */
 }
 
 #fonte {
-    margin-top: 4em;
+    margin-top: 4em; /* margem superior */
 }
 
 #fonte p {
-margin-top: -1em;
+margin-top: -1em; /* margem superior */
 }
 
 #fonte p a{
-    font-size: 15px;
+    font-size: 15px; /* tamanho da fonte */
 }
 
 
 /*id PART-FIVE onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
 #part-five{
-    background-color: #ff9945ff;
-    height: auto; /* altura responsiva */
-    color: white;
-    padding: 3em;
-    text-align: center;
+    background-color: #ff9945ff; /* cor do fundo */
+    height: auto; /* altura automatica */
+    color: white; /* cor do texto */
+    padding: 3em; /* respiro dp conteudo */
+    text-align: center; /* alinhamento do texto */
 }
 
 #part-five h2{
-    font-size: 1.6em;
-    margin-bottom: 40px;
+    font-size: 1.6em; /* tamanho da fonte */
+    margin-bottom: 40px; /* margem inferior */
 }
 
 #part-five p{
-    font-size: 1.4em;
+    font-size: 1.4em; /* tamanho da fonte */
 }
 
 #part-five a { 
-color: rgb(183, 0, 255);
-cursor: pointer;
-text-decoration: none;
+color: rgb(183, 0, 255); /* cor do texto */
+cursor: pointer; /* cursor ao passar o mouse */
+text-decoration: none; /* decoração do texto */
 }
 
-/*Footer é padrão em todas as páginas*/
+/* rodapé */
 footer{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
+    padding: 3vh; /* respiro do conteudo */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
+    
 }
 
 #infoFooter{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 3rem;
-}
-
-#divIcon {
-text-align: center;
+    display: flex; /* display flexivel */
+    justify-content: space-evenly; /* justificando o conteudo */
+    padding: 3rem; /* respiro do conteudo */
 }
 
 #divIcon ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
+    list-style: none; /* estilo de lista */
+    display: flex; /* display flexivel */
+    justify-content: center; /* icones centralizados com a imagem */
 }
 
 footer div a i{
-    font-size: 2rem;
-    margin: 0 12px;
+    font-size: 2rem; /* tamanho da fonte */
+    margin: 0 12px; /* margem */
 }
 
 #divIcon ul a i:hover{
-    transition: 0.2s;
-    font-size: 2.1em;
+    transition: 0.2s; /* tempo de transição */
+    font-size: 2.1em; /* tamanho da fonte */
 }
 
 .divFooter h3{
-    text-align: center;
+    text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px;
-    text-align: justify;
-    font-size: 14px;
+    margin: 0 30px; /* margem do paragrafo */
+    text-align: justify; /* alinhamento do texto */
+    font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw;
-    text-align: justify;
+    max-width: 20vw; /* largura maxima */
+    text-align: justify; /* alinhamento do texto */
 }
-
 #infoFooter div img{
-    width: 30vh;
+    width: 30vh; /* largura */
+    
 }
-
 footer p{
-    margin-top: 1em;
-    text-align: center;
+    margin-top: 1em; /* margem superior */
+    text-align: center; /* alinhamento do texto */
 }
 
 #divContatos p{
-   margin-top: 40px;
+   margin-top: 40px; /* margem superior */
    
 }
-
 #divContatos p a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* decoração do texto */
+    color: black; /* cor da fonte */
 }
 
 .whats a i{
-    color: #1abd5b;
+    color: #1abd5b; /* cor do icone do whatsapp */
 }
 
 .insta a i{
-    color: #833ab4;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text; /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
 }
 
 .in a i{
-    color: #0e76a8;
+    color: #0e76a8; /* cor do icone do linkedin */
 }
+
+
+/*  */
 
 /* paleta de cores usadas, algumas foram semelhantes e não foram listadas */
 /* CSS HEX 
