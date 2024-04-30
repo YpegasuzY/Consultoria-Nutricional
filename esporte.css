@@ -73,14 +73,73 @@ display: block;
 background-image: url(imagens/esporte.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 }
 
 #titulo div {
-padding: 15em;
+padding: 3em;
 color: white;
-text-align: center;
+justify-content: center;
 display: flex;
 align-items: center;
+font-size: 30px;
+}
+
+#titulo h2 {
+padding: 0px 15px;
+}
+
+#pt1 {
+padding: 10vw;
+display: flex;
+align-items: center;
+}
+
+#pt1 div {
+    padding-right: 1em;
+}
+
+#pt1 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#pt1 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pt1 img {
+width: 30em;
+padding-left: 1em;
+}
+
+#pt2 {
+padding: 10vw;
+display: flex;
+align-items: center;
+background-color: ;
+}
+
+#pt2 div {
+    padding-right: 1em;
+}
+
+#pt1 h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#pt2 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pt1 img {
+width: 30em;
+padding-left: 1em;
 }
 
 /* rodapé */
