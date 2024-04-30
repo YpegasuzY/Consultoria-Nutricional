@@ -220,7 +220,6 @@ footer{
 
 #infoFooter{
     display: flex; /* display flexivel */
-    justify-content: space-evenly; /* justificando o conteudo */
     padding: 3rem; /* respiro do conteudo */
 }
 

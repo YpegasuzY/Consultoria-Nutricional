@@ -6,13 +6,14 @@
 header{
     padding: 3vh; /* para dar respiro no header */
     background-color: rgb(218, 179, 150); /* cor de fundo */
-    text-align: center; /* alinhamento do texto */
-    align-items: center; /* alinhamento dos itens */
+}
+#imagemHeader{
+    text-align: center;
+}
+header div img{
+    height: 30vh;
 }
 
-header div img{
-    width: 30vh; /* largura da div do header */
-}
 
 .linksHeader nav{
     display: flex; /* para deixar um ao lado do outro */
@@ -193,9 +194,12 @@ footer{
 }
 
 #infoFooter{
-    display: flex; /* display flexivel */
-    justify-content: space-evenly; /* justificando o conteudo */
-    padding: 3rem; /* respiro do conteudo */
+    display: flex; /* display flexivel */ 
+    padding: 2rem; /* respiro do conteudo */
+}
+
+#infoFooter div{
+    margin: 0 2rem;
 }
 
 #divIcon ul{
@@ -218,13 +222,13 @@ footer div a i{
     text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px; /* margem do paragrafo */
+    margin: 0 20px; /* margem do paragrafo */
     text-align: justify; /* alinhamento do texto */
     font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw; /* largura maxima */
+    width: 20rem;
     text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
@@ -259,14 +263,8 @@ footer p{
     color: #0e76a8; /* cor do icone do linkedin */
 }
 
-<<<<<<< Updated upstream
-@media screen and (max-width:991px ){ 
-        #imagemHeader {
-            display: flex;
-            justify-content: center;
-            width: 991px;
-
-        }
+@media screen and (max-width:991px){ 
+        
 
          #saude h2 {
          text-align: left;
@@ -276,36 +274,34 @@ footer p{
             text-align: left;
          }
             
-         footer .divFooter p{
-            text-align: justify;
-            width: 230px;
-            margin-top: 20px;
+
+         footer {
+            padding: 10vh;
          }
 
-         footer .divFooter h3{
-            margin-left: 80px;
+            #divInfo {
+            width: 15em;
+       
          }
 
-         footer #divContatos .divFooter p a{
+
+         #divContatos p {
+            color: rgb(0, 0, 0);
+         }
+
+         #divContatos a {
+            text-decoration: none;
+         }
+
+         }
+
         
-            
-         }
-         }
-
-        
 
 
 
 
 
 
-=======
-/* iniciando o trabalho com responsividade */
-
-@media screen and (max-width: 480px){
-    
-}
->>>>>>> Stashed changes
 
 
 
