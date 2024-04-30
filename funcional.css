@@ -72,3 +72,12 @@ display: block;
 .titulo {
     text-align: center;
 }
+
+#divpai {
+    display: flex;
+}
+
+#paragrafo {
+    margin-top: 8rem;
+    padding: 5rem;
+}
