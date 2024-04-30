@@ -36,8 +36,18 @@ header div img{
 }
 
 .menu .submenu { /* organização do menu */
+<<<<<<< Updated upstream
 margin-top: 8px; /* margem superior */
 margin-left: -15px; /* margem da esquerda */
+=======
+<<<<<<< HEAD
+margin-top: 8px; 
+margin-left: -20px;
+=======
+margin-top: 8px; /* margem superior */
+margin-left: -15px; /* margem da esquerda */
+>>>>>>> 9a746f6e54a0266fc7d3e2429de252e44d98a317
+>>>>>>> Stashed changes
 }
 
 .submenu a { 

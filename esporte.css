@@ -1,8 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /* para deixar a pagina sem margem */
+    padding: 0; /* para deixar a pagina sem respito */
 }
-
 /* cabeçalho */
 header{
     padding: 3vh; /* para dar respiro no header */
@@ -31,28 +30,27 @@ header div img{
 }
 
 .submenu {
-    display: none;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.97);
-    
+    display: none; /* desaparecimento do conteúdo */
+    position: absolute; /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
 }
 
-.menu .submenu {
-margin-top: 8px;
-margin-left: -15px;
+.menu .submenu { /* organização do menu */
+margin-top: 8px; 
+margin-left: -20px;
 }
 
-.submenu a {
-    display: block;
+.submenu a { 
+    display: block; /* deixa os submenus um embaixo do outro */
     padding: 2vh;
 }
 
-.submenu a:hover {
-    background-color: orange;
+.submenu a:hover { /* config. do menu */
+    background-color: orange; 
     transition: 0.5s;
 }
 
-.menu:hover .submenu {
+.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
 display: block;
 }
 
@@ -71,40 +69,19 @@ display: block;
     transition: 0.4s; /* tempo para mudar ao passar o mouse */
 }
 
-.esporte{
-    background-image: url(imagens/esporte.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 20vh;
-    display: grid;
-    justify-content: center;
+#titulo {
+background-image: url(imagens/esporte.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.esporte div{
-    display: flex;
-    font-size: 3rem;
-    align-items: center;
-    color: #ebebebff;
+#titulo div {
+padding: 15em;
+color: white;
+text-align: center;
+display: flex;
+align-items: center;
 }
-
-.esporte div h2{
-    margin: 0 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* rodapé */
 footer{
