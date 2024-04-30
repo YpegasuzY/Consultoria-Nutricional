@@ -3,46 +3,43 @@
     padding: 0;
 }
 
+/* cabeçalho */
 header{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
-    text-align: center;
-    align-items: center;
+    padding: 3vh; /* para dar respiro no header */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
+    text-align: center; /* alinhamento do texto */
+    align-items: center; /* alinhamento dos itens */
 }
 
 header div img{
-    width: 30vh;
+    width: 30vh; /* largura da div do header */
 }
 
 .linksHeader nav{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* para deixar um ao lado do outro */
+    justify-content: space-around; /* para dar espaço nos itens de forma igual */
 }
 
 .linksHeader ul{
-    display: flex;
-    list-style: none;
+    display: flex; /* para deixar um ao lado do outro */
+    list-style: none; /* para deixar sem estilo de lista */
 
 }
 
 .linksHeader ul li{
-      margin: 0 20px;
-}
-
-#direcionamento li a{  
-    text-decoration: none;
-    color: black;
+      margin: 0 20px; /* para dar margem */
 }
 
 .submenu {
     display: none;
     position: absolute;
     background: rgba(255, 255, 255, 0.97);
-    margin-left: -1.2vw;
+    
 }
 
 .menu .submenu {
 margin-top: 8px;
+margin-left: -15px;
 }
 
 .submenu a {
@@ -59,90 +56,127 @@ margin-top: 8px;
 display: block;
 }
 
+#direcionamento li a{  
+    text-decoration: none; /* para tirar o estilo do texto */
+    color: black; /* cor da fonte */
+}
+
 #icones li a{
-    text-decoration: none;
-    font-size: 1.5em;
+    text-decoration: none; /* para tirar o estilo do texto */
+    font-size: 1.5em; /* tamanho da fonte */
 }
 
 #icones li a:hover{
-    font-size: 1.55em;
-    transition: 0.4s;
+    font-size: 1.55em; /* tamanho da fonte */
+    transition: 0.4s; /* tempo para mudar ao passar o mouse */
 }
 
-.esporte a i{
-    font-size: 6rem;
-    text-decoration: none;
-    color: black;
+.esporte{
+    background-image: url(imagens/esporte.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20vh;
+    display: grid;
+    justify-content: center;
 }
 
+.esporte div{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    color: #ebebebff;
+}
+
+.esporte div h2{
+    margin: 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodapé */
 footer{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
+    padding: 3vh; /* respiro do conteudo */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
     
 }
 
 #infoFooter{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 3rem;
+    display: flex; /* display flexivel */
+    justify-content: space-evenly; /* justificando o conteudo */
+    padding: 3rem; /* respiro do conteudo */
 }
 
 #divIcon ul{
-    list-style: none;
-    display: flex;
+    list-style: none; /* estilo de lista */
+    display: flex; /* display flexivel */
 }
 
 footer div a i{
-    font-size: 2rem;
-    margin: 0 12px;
+    font-size: 2rem; /* tamanho da fonte */
+    margin: 0 12px; /* margem */
 }
 
 #divIcon ul a i:hover{
-    transition: 0.2s;
-    font-size: 2.1em;
+    transition: 0.2s; /* tempo de transição */
+    font-size: 2.1em; /* tamanho da fonte */
 }
 
 .divFooter h3{
-    text-align: center;
+    text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px;
-    text-align: justify;
-    font-size: 14px;
+    margin: 0 30px; /* margem do paragrafo */
+    text-align: justify; /* alinhamento do texto */
+    font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw;
-    text-align: justify;
+    max-width: 20vw; /* largura maxima */
+    text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
-    width: 30vh;
+    width: 30vh; /* largura */
     
 }
 footer p{
-    margin-top: 1em;
-    text-align: center;
+    margin-top: 1em; /* margem superior */
+    text-align: center; /* alinhamento do texto */
 }
 
 #divContatos p{
-   margin-top: 40px;
+   margin-top: 40px; /* margem superior */
    
 }
 #divContatos p a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* decoração do texto */
+    color: black; /* cor da fonte */
 }
 
 .whats a i{
-    color: #1abd5b;
+    color: #1abd5b; /* cor do icone do whatsapp */
 }
 
 .insta a i{
-    color: #833ab4;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text; /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
 }
 
 .in a i{
-    color: #0e76a8;
+    color: #0e76a8; /* cor do icone do linkedin */
 }
 
 
