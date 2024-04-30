@@ -106,7 +106,7 @@ display: block; /* display em bloco */
     justify-content: space-evenly; /* conteúdo lado a lado */
     align-items: center; /* alinhamento vertical */
     height: auto; /* altura responsiva */
-    background-color:  #ebebebff; /* cor de fundo */
+    
 }
 
 #part-two h2{
@@ -160,7 +160,7 @@ display: block; /* display em bloco */
 
 /*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
 #part-four{
-    background-color: #ebebebff; /* cor de fundo */
+    
     color: black; /* cor do texto */
     padding: 5em; /* respiro da pagina */
     text-align: center; /* alinhamento de texto */
@@ -193,7 +193,7 @@ margin-top: -1em; /* margem superior */
 }
 
 
-/*id PART-FIVE onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
+/*id PART-FIVE - linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
 #part-five{
     background-color: #ff9945ff; /* cor do fundo */
     height: auto; /* altura automatica */
@@ -292,7 +292,164 @@ footer p{
 }
 
 
-/*  */
+
+
+/* configuração da responsividade */
+
+@media screen and (max-width: 400px){
+    
+    
+
+header{
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+/*primeiro bloco > part-one*/
+
+    #part-one{
+        width: 400px;
+        background-size: 200vh;
+        padding: 10vw;
+    }
+
+
+    #part-one h2{
+        font-size: 1.5em;
+        width: 400px; 
+    }
+
+    #part-one p{
+        font-size: 1em;
+        width: 400px; 
+    }
+
+    /*segundo bloco > part-two*/
+
+    #part-two{
+        display: block;
+        padding: 8vw;
+    }
+
+    #part-two{
+        height: auto;
+    }
+
+    #part-two h2{
+        font-size: 1.5em; 
+        text-align: center; 
+        width: 400px; 
+    }
+   
+    #part-two p{
+        font-size: 1em; 
+        margin-top: 20px; 
+        text-align: justify; 
+        width: 400px; 
+    }
+    
+    #part-two img{
+        margin-top: 20px;
+        height: auto; 
+        width: 20em; 
+        margin-left: 30px;
+    }
+    
+ /*terceiro bloco > part-three*/
+
+ #part-three{
+    display: block;
+    padding: 8vw;
+    width: 400px; 
+}
+
+#part-three{
+    height: auto;
+}
+
+#part-three h2{
+    font-size: 1.5em; 
+    text-align: center; 
+    width: 400px; 
+    margin-top: 20px;
+}
+
+
+#part-three p{
+    font-size: 1em; 
+    margin-top: 20px; 
+    text-align: justify; 
+    width: 400px; 
+}
+
+#part-three img{
+    margin-top: 10px;
+    height: auto; 
+    width: 15em; 
+    margin-left: 70px;
+}
+
+ /*quarto bloco > part-four*/
+
+ #part-four{
+    display: block;
+    padding: 8vw;
+    width: 400px; 
+}
+
+
+#part-four h2{
+    font-size: 1.3em; 
+        text-align: center; 
+        width: 400px;  
+}
+
+#part-four p{
+    font-size: 1em; 
+        margin-top: 20px; 
+        text-align: justify; 
+        width: 400px; 
+    }
+
+ /*quinto bloco > part-five*/
+
+#part-five{
+    padding: 8vw;
+    width: 400px; 
+}
+
+#part-five h2{
+    
+        font-size: 1.3em; 
+            text-align: center; 
+            width: 400px;  
+}
+    
+    #part-five p{
+        font-size: 0.8em; 
+            margin-top: 20px; 
+            text-align: justify; 
+            width: 400px; 
+        }
+
+/*rodapé > footer*/
+
+footer{
+    width: 400px;
+    display: block;
+}
+
+footer #divInfo .divFooter p{
+    width: 200px;
+}
+
+}
+
+
+
+
+
+
 
 /* paleta de cores usadas, algumas foram semelhantes e não foram listadas */
 /* CSS HEX 
