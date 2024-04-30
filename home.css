@@ -74,7 +74,7 @@ display: block;
     background-image: url(imagens/bg\ header.jpg); /* imagem de fundo */
     background-repeat: no-repeat; /* para a imagem não repetir */
     background-position: center; /* para posicionar a imagem */
-    padding: 3vh; /* respiro do conteudo */
+    padding: 4vh; /* respiro do conteudo */
     background-size: cover; /* para ajustar o tamanho da imagem */
 }
 
@@ -195,10 +195,20 @@ footer{
 #infoFooter{
     display: flex; /* display flexivel */ 
     padding: 2rem; /* respiro do conteudo */
+    display: flex;
+    justify-content: center;
 }
 
 #infoFooter div{
-    margin: 0 2rem;
+    margin: 3vw;
+}
+
+#divInfo h3{
+    font-size: 1.7rem;
+}
+
+#divInfo p{
+    font-size: 1.3rem;
 }
 
 #divIcon ul{
