@@ -1,78 +1,72 @@
-*{
-    margin: 0; /* para deixar a pagina sem margem */
-    padding: 0; /* para deixar a pagina sem respito */
-}
-/* cabeçalho */
-header{
-    padding: 3vh; /* para dar respiro no header */
-    background-color: rgb(218, 179, 150); /* cor de fundo */
-    text-align: center; /* alinhamento do texto */
-    align-items: center; /* alinhamento dos itens */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-header div img{
-    width: 30vh; /* largura da div do header */
+header {
+    display: flex;
+    padding: 3vh;
+    background-color: rgba(255, 166, 0, 0.685);
+    height: 13rem;
 }
 
-.linksHeader nav{
-    display: flex; /* para deixar um ao lado do outro */
-    justify-content: space-around; /* para dar espaço nos itens de forma igual */
+header img {
+    width: 14rem;
+    height: 14rem;
+    margin-left: 10%;
 }
 
-.linksHeader ul{
-    display: flex; /* para deixar um ao lado do outro */
-    list-style: none; /* para deixar sem estilo de lista */
-
+#listapai {
+    display: flex;
 }
 
-.linksHeader ul li{
-      margin: 0 20px; /* para dar margem */
+#listapai a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#lista {
+    margin-left: 20rem;
+    padding: 4rem;
 }
 
 .submenu {
-    display: none; /* desaparecimento do conteúdo */
-    position: absolute; /* deixar o título do topo */
-    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
+    display: none;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.97);
 }
 
-.menu .submenu { /* organização do menu */
-margin-top: 8px; 
+.menu .submenu {
+margin-top: 8px;
 margin-left: -15px;
 }
 
-.submenu a { 
-    display: block; /* deixa os submenus um embaixo do outro */
+.submenu a {
+    display: block;
     padding: 2vh;
 }
 
-.submenu a:hover { /* config. do menu */
-    background-color: orange; 
+.submenu a:hover {
+    background-color: orange;
     transition: 0.5s;
 }
 
-.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
+.menu:hover .submenu {
 display: block;
 }
 
-#direcionamento li a{  
-    text-decoration: none; /* para tirar o estilo do texto */
-    color: black; /* cor da fonte */
-}
-
-#icones li a{
-    text-decoration: none; /* para tirar o estilo do texto */
-    font-size: 1.5em; /* tamanho da fonte */
-}
-
-#icones li a:hover{
-    font-size: 1.55em; /* tamanho da fonte */
-    transition: 0.4s; /* tempo para mudar ao passar o mouse */
+#icones {
+    margin-left: 10rem;
+    padding: 4rem;
 }
 
 .imagem {
     background-image: url(https://dglab.com.br/wp-content/uploads/2021/09/Nutric%CC%A7a%CC%83o-funcional-840x400.jpg);
     background-repeat: no-repeat;
-background-size: cover;
+    background-position: center;
+    height: 25rem;
 }
 
 .titulo {
@@ -86,4 +80,3 @@ background-size: cover;
 #paragrafo {
     margin-top: 8rem;
     padding: 5rem;
-}
