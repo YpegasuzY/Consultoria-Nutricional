@@ -14,7 +14,6 @@ header div img{
     height: 30vh;
 }
 
-
 .linksHeader nav{
     display: flex; /* para deixar um ao lado do outro */
     justify-content: space-around; /* para dar espaço nos itens de forma igual */
@@ -43,6 +42,7 @@ margin-left: -20px;
 .submenu a { 
     display: block; /* deixa os submenus um embaixo do outro */
     padding: 2vh;
+    text-align: center;
 }
 
 .submenu a:hover { /* config. do menu */
