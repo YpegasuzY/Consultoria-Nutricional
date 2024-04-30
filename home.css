@@ -259,6 +259,46 @@ footer p{
     color: #0e76a8; /* cor do icone do linkedin */
 }
 
+@media screen and (max-width:991px ){ 
+        #imagemHeader {
+            display: flex;
+            justify-content: center;
+            width: 991px;
+
+        }
+
+         #saude h2 {
+         text-align: left;
+         }
+         
+         #esporte h2{
+            text-align: left;
+         }
+            
+         footer .divFooter p{
+            text-align: justify;
+            width: 230px;
+            margin-top: 20px;
+         }
+
+         footer .divFooter h3{
+            margin-left: 80px;
+         }
+
+         footer #divContatos .divFooter p a{
+        
+            
+         }
+         }
+
+        
+
+
+
+
+
+
+
 
 
 /*  */
