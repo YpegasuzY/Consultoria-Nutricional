@@ -259,6 +259,7 @@ footer p{
     color: #0e76a8; /* cor do icone do linkedin */
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width:991px ){ 
         #imagemHeader {
             display: flex;
@@ -298,6 +299,13 @@ footer p{
 
 
 
+=======
+/* iniciando o trabalho com responsividade */
+
+@media screen and (max-width: 480px){
+    
+}
+>>>>>>> Stashed changes
 
 
 
