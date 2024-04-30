@@ -30,28 +30,27 @@ header div img{
 }
 
 .submenu {
-    display: none;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.97);
-    
+    display: none; /* desaparecimento do conteúdo */
+    position: absolute; /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
 }
 
-.menu .submenu {
-margin-top: 8px;
+.menu .submenu { /* organização do menu */
+margin-top: 8px; 
 margin-left: -15px;
 }
 
-.submenu a {
-    display: block;
+.submenu a { 
+    display: block; /* deixa os submenus um embaixo do outro */
     padding: 2vh;
 }
 
-.submenu a:hover {
-    background-color: orange;
+.submenu a:hover { /* config. do menu */
+    background-color: orange; 
     transition: 0.5s;
 }
 
-.menu:hover .submenu {
+.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
 display: block;
 }
 
@@ -202,6 +201,7 @@ footer{
 #divIcon ul{
     list-style: none; /* estilo de lista */
     display: flex; /* display flexivel */
+    justify-content: center; /* icones centralizados com a imagem */
 }
 
 footer div a i{

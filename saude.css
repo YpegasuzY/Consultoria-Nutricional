@@ -1,136 +1,132 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /* para deixar a pagina sem margem */
+    padding: 0; /* para deixar a pagina sem respito */
 }
-
-/*Header é padrão em todas as páginas*/
-
+/* cabeçalho */
 header{
-    padding: 3vh;
-    background-color: rgb(218, 179, 150);
-    text-align: center;
-    align-items: center;
+    padding: 3vh; /* para dar respiro no header */
+    background-color: rgb(218, 179, 150); /* cor de fundo */
+    text-align: center; /* alinhamento do texto */
+    align-items: center; /* alinhamento dos itens */
 }
 
 header div img{
-    width: 30vh;
+    width: 30vh; /* largura da div do header */
 }
 
 .linksHeader nav{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* para deixar um ao lado do outro */
+    justify-content: space-around; /* para dar espaço nos itens de forma igual */
 }
 
 .linksHeader ul{
-    display: flex;
-    list-style: none;
+    display: flex; /* para deixar um ao lado do outro */
+    list-style: none; /* para deixar sem estilo de lista */
 
 }
 
 .linksHeader ul li{
-      margin: 0 20px;
-}
-
-#direcionamento li a{  
-    text-decoration: none;
-    color: black;
+      margin: 0 20px; /* para dar margem */
 }
 
 .submenu {
-    display: none;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.97);
-    margin-left: -1.2px;
+    display: none; /* desaparecimento do conteúdo */
+    position: absolute; /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
 }
 
-.menu .submenu {
-margin-top: 8px;
+.menu .submenu { /* organização do menu */
+margin-top: 8px; 
 margin-left: -15px;
 }
 
-.submenu a {
-    display: block;
+.submenu a { 
+    display: block; /* deixa os submenus um embaixo do outro */
     padding: 2vh;
 }
 
-.submenu a:hover {
-    background-color: orange;
+.submenu a:hover { /* config. do menu */
+    background-color: orange; 
     transition: 0.5s;
 }
 
-.menu:hover .submenu {
+.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
 display: block;
 }
 
+#direcionamento li a{  
+    text-decoration: none; /* para tirar o estilo do texto */
+    color: black; /* cor da fonte */
+}
+
 #icones li a{
-    text-decoration: none;
-    font-size: 1.5em;
+    text-decoration: none; /* para tirar o estilo do texto */
+    font-size: 1.5em; /* tamanho da fonte */
 }
 
 #icones li a:hover{
-    font-size: 1.55em;
-    transition: 0.4s;
+    font-size: 1.55em; /* tamanho da fonte */
+    transition: 0.4s; /* tempo para mudar ao passar o mouse */
 }
 
 /*iniciada a estilização do id PART-ONE que informa para quem está direcionado o tema*/
 #part-one{
-    background-image: url(imagens/saúde.jpg);
-    color: white;
-    text-align: center;
-    padding: 5em;
-    height: auto;
+    background-image: url(imagens/saúde.jpg); /* banner */
+    color: white; /* cor de texto */
+    text-align: center; /* centralização do texto */
+    padding: 5em; /* respiro da seção */
+    height: auto; /* altura responsiva */
 }
 
 #part-one h2{
-    font-size: 4em;
+    font-size: 4em; /* tamanho da fonte */
 }
 
 #part-one p{
-    font-size: 2em;
-    margin-top: 20px;
+    font-size: 2em; /* tamanho da fonte */
+    margin-top: 20px; /* margin no topo */
 }
 
 
 /*id PART-TWO onde falamos do papel crucial da nutrição*/
 #part-two{
-    background-color: white;
-    color: black;
-    padding: 4em 0em 5em;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: auto;
+    color: black; /* cor de texto */
+    padding: 5em 0em 5em; /* respiro apenas na vertical */
+    display: flex; /* seção flexivel */
+    justify-content: space-evenly; /* conteúdo lado a lado */
+    align-items: center; /* alinhamento vertical */
+    height: auto; /* altura responsiva */
+    background-color:  #ebebebff; /* cor de fundo */
 }
 
 #part-two h2{
-    font-size: 2em;
-    text-align: center;
-    width: 40vw;
+    font-size: 2em; /* tamanho da fonte */
+    text-align: center; /* centralização do texto */
+    width: 40vw; /* largura do texto */
 }
 
 #part-two p{
-    font-size: 1.5em;
-    margin-top: 40px;
-    text-align: justify;
-    width: 40vw;
+    font-size: 1.5em; /* tamanho da fonte */
+    margin-top: 40px; /* margin no topo */
+    text-align: justify; /* texto justificado */
+    width: 40vw; /* largura do texto */
 }
 
 #part-two img{
-    height: auto;
-    width: 20em;
+    height: auto; /* altura responsiva */
+    width: 35em; /* tamanho da imagem */
 }
-
 
 /*id PART-THREE onde falamos da hidratação*/
 #part-three{
-    background-color: orangered;
-    height: 25rem;
-    color: white;
-    padding: 4em;
+    background-color: #ff9945ff; /* cor de fundo */
+    height: 25rem; /* altura da seção */
+    color: white; /* cor de texto */
+    padding: 4em; /* respiro da seção */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: auto;
+    height: auto; /* altura responsiva */ 
 }
 
 #part-three h2{
@@ -147,18 +143,18 @@ display: block;
 }
 
 #part-three img{
-    height: auto;
+    height: auto; /* altura responsiva */
     width: 30vw;
 }
 
 
 /*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
 #part-four{
-    background-color: white;
+    background-color: #ebebebff;
     color: black;
     padding: 5em;
     text-align: center;
-    height: auto;
+    height: auto; /* altura responsiva */
 }
 
 #part-four h2{
@@ -189,8 +185,8 @@ margin-top: -1em;
 
 /*id PART-FIVE onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
 #part-five{
-    background-color: orangered;
-    height: auto;
+    background-color: #ff9945ff;
+    height: auto; /* altura responsiva */
     color: white;
     padding: 3em;
     text-align: center;
@@ -205,11 +201,16 @@ margin-top: -1em;
     font-size: 1.4em;
 }
 
+#part-five a { 
+color: rgb(183, 0, 255);
+cursor: pointer;
+text-decoration: none;
+}
+
 /*Footer é padrão em todas as páginas*/
 footer{
     padding: 3vh;
     background-color: rgb(218, 179, 150);
-    
 }
 
 #infoFooter{
@@ -218,9 +219,14 @@ footer{
     padding: 3rem;
 }
 
+#divIcon {
+text-align: center;
+}
+
 #divIcon ul{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 footer div a i{
@@ -246,10 +252,11 @@ footer div a i{
     max-width: 20vw;
     text-align: justify;
 }
+
 #infoFooter div img{
     width: 30vh;
-    
 }
+
 footer p{
     margin-top: 1em;
     text-align: center;
@@ -259,6 +266,7 @@ footer p{
    margin-top: 40px;
    
 }
+
 #divContatos p a{
     text-decoration: none;
     color: black;
@@ -276,6 +284,12 @@ footer p{
     color: #0e76a8;
 }
 
-
-
-
+/* paleta de cores usadas, algumas foram semelhantes e não foram listadas */
+/* CSS HEX 
+--sandy-brown: #ff9945ff;
+--peach: #ffbe92ff;
+--mindaro: #fffba5ff;
+--naples-yellow: #fce15aff;
+--green-yellow: #b5fa70ff;
+--night: #141414ff;
+--antiflash-white: #ebebebff;*/
