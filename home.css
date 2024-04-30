@@ -195,20 +195,12 @@ footer{
 #infoFooter{
     display: flex; /* display flexivel */ 
     padding: 2rem; /* respiro do conteudo */
-    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #infoFooter div{
     margin: 3vw;
-}
-
-#divInfo h3{
-    font-size: 1.7rem;
-}
-
-#divInfo p{
-    font-size: 1.3rem;
 }
 
 #divIcon ul{
@@ -217,7 +209,7 @@ footer{
     justify-content: center; /* icones centralizados com a imagem */
 }
 
-footer div a i{
+footer div a i{ /* aqui ainda estou chamando a tag do icone */
     font-size: 2rem; /* tamanho da fonte */
     margin: 0 12px; /* margem */
 }
@@ -227,6 +219,7 @@ footer div a i{
     font-size: 2.1em; /* tamanho da fonte */
 }
 
+
 .divFooter h3{
     text-align: center; /* alinhamento do texto */
 }
@@ -234,6 +227,14 @@ footer div a i{
     margin: 0 20px; /* margem do paragrafo */
     text-align: justify; /* alinhamento do texto */
     font-size: 14px; /* tamanho da fonte */
+}
+
+#divInfo h3{
+    font-size: 1.4rem;
+}
+
+#divInfo p{
+    font-size: 1.1rem;
 }
 
 #divInfo{
@@ -248,10 +249,16 @@ footer p{
     margin-top: 1em; /* margem superior */
     text-align: center; /* alinhamento do texto */
 }
+#divContatos{
+    display: block;
+}
+
+#divContatos h3{
+    align-items: start;
+}
 
 #divContatos p{
    margin-top: 40px; /* margem superior */
-   
 }
 #divContatos p a{
     text-decoration: none; /* decoração do texto */
@@ -276,7 +283,6 @@ footer p{
         #imagemHeader {
             display: flex;
             justify-content: center;
-            width: 991px;
 
         }
 
@@ -298,6 +304,14 @@ footer p{
        
          }
 
+         #divInfo h3{
+            font-size: 1.2rem;
+        }
+        
+
+         #divInfo p{
+            font-size: 0.9rem;
+        }
 
          #divContatos p {
             color: rgb(0, 0, 0);
@@ -309,7 +323,24 @@ footer p{
 
          }
 
-        
+        @media screen and (max-width:767px) {
+            #introNutri{
+                font-size: 0.7em;
+            }
+
+            #saude{
+                padding: 10vh;
+                font-size: 0.7em;
+            }
+
+
+
+
+
+
+
+
+        }
 
 
 
