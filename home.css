@@ -23,7 +23,6 @@ header div img{
 .linksHeader ul{
     display: flex; /* para deixar um ao lado do outro */
     list-style: none; /* para deixar sem estilo de lista */
-
 }
 
 .linksHeader ul li{
@@ -263,8 +262,13 @@ footer p{
     color: #0e76a8; /* cor do icone do linkedin */
 }
 
-@media screen and (max-width:991px){ 
-        
+@media screen and (max-width:991px ){ 
+        #imagemHeader {
+            display: flex;
+            justify-content: center;
+            width: 991px;
+
+        }
 
          #saude h2 {
          text-align: left;

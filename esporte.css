@@ -74,6 +74,7 @@ background-image: url(imagens/esporte.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+margin-left: -1px;
 }
 
 #titulo div {
@@ -93,6 +94,7 @@ padding: 0px 15px;
 padding: 10vw;
 display: flex;
 align-items: center;
+background-color: #ebebebff;
 }
 
 #pt1 div {
@@ -130,16 +132,60 @@ align-items: center;
     font-size: 35px;
     text-align: center;
     margin-bottom: 1em;
+    background-color: #ff9945ff;;
 }
 
 #pt2 p {
-    font-size: 20px;
+    font-size: 28px;
     text-align: justify;
+    padding-right: 2em;
 }
 
-#pt1 img {
+#pt2 img {
 width: 30em;
-padding-left: 1em;
+padding-left: 2em;
+}
+
+#pt3 {
+padding: 10vw;
+display: flex;
+align-items: center;
+background-color: #ebebebff;
+}
+
+#pt3 p {
+    font-size: 28px;
+    text-align: justify;
+    padding-left: 2em;
+}
+
+#pt3 img {
+width: 30em;
+padding-right: 2em;
+}
+
+/*id pt4 onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
+#pt4{
+    background-color: #ff9945ff; /* cor do fundo */
+    height: auto; /* altura automatica */
+    color: white; /* cor do texto */
+    padding: 3em; /* respiro dp conteudo */
+    text-align: center; /* alinhamento do texto */
+}
+
+#pt4 h2{
+    font-size: 1.6em; /* tamanho da fonte */
+    margin-bottom: 40px; /* margem inferior */
+}
+
+#pt4 p{
+    font-size: 1.4em; /* tamanho da fonte */
+}
+
+#part-five a { 
+color: rgb(183, 0, 255); /* cor do texto */
+cursor: pointer; /* cursor ao passar o mouse */
+text-decoration: none; /* decoração do texto */
 }
 
 /* rodapé */
