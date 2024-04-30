@@ -219,8 +219,22 @@ footer{
 }
 
 #infoFooter{
-    display: flex; /* display flexivel */
-    padding: 3rem; /* respiro do conteudo */
+    display: flex; /* display flexivel */ 
+    padding: 2rem; /* respiro do conteudo */
+    display: flex;
+    justify-content: center;
+}
+
+#infoFooter div{
+    margin: 3vw;
+}
+
+#divInfo h3{
+    font-size: 1.7rem;
+}
+
+#divInfo p{
+    font-size: 1.3rem;
 }
 
 #divIcon ul{
@@ -243,13 +257,13 @@ footer div a i{
     text-align: center; /* alinhamento do texto */
 }
 .divFooter p{
-    margin: 0 30px; /* margem do paragrafo */
+    margin: 0 20px; /* margem do paragrafo */
     text-align: justify; /* alinhamento do texto */
     font-size: 14px; /* tamanho da fonte */
 }
 
 #divInfo{
-    max-width: 20vw; /* largura maxima */
+    width: 20rem;
     text-align: justify; /* alinhamento do texto */
 }
 #infoFooter div img{
@@ -283,7 +297,6 @@ footer p{
 .in a i{
     color: #0e76a8; /* cor do icone do linkedin */
 }
-
 
 /*  */
 
