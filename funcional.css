@@ -48,12 +48,9 @@ header div img {
 }
 
 .menu .submenu {
-margin-top: 1px; /*conversar com bryan*/
-margin-left: -15px;
-}
-
-#listapai .submenu a {
-    color: black;
+    /* organização do menu */
+    margin-top: 8px;
+    margin-left: -20px;
 }
 
 .submenu a {
@@ -63,13 +60,14 @@ margin-left: -15px;
     text-align: center;
 }
 
-#listapai .submenu a:hover {
+.submenu a:hover {
+    /* config. do menu */
     background-color: orange;
-    color: white;
     transition: 0.5s;
 }
 
 .menu:hover .submenu {
+    /* apenas apareça caso o mouse passe por cima */
     display: block;
 }
 
@@ -78,6 +76,20 @@ margin-left: -15px;
     /* para tirar o estilo do texto */
     color: black;
     /* cor da fonte */
+}
+
+#icones li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    font-size: 1.5em;
+    /* tamanho da fonte */
+}
+
+#icones li a:hover {
+    font-size: 1.55em;
+    /* tamanho da fonte */
+    transition: 0.4s;
+    /* tempo para mudar ao passar o mouse */
 }
 
 #secao1 {
