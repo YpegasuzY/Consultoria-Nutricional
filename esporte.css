@@ -148,9 +148,7 @@ padding: 10vw;
 display: flex;
 align-items: center;
 background-color: #ff9945ff;
-    padding: 10vw;
-    display: flex;
-    align-items: center;
+
 
 }
 
@@ -163,11 +161,10 @@ background-color: #ff9945ff;
     text-align: center;
     margin-bottom: 1em;
     background-color: #ff9945ff;
-    ;
 }
 
 #pt2 p {
-    font-size: 28px;
+    font-size: 30px;
     text-align: justify;
     padding-right: 2em;
 }
@@ -231,90 +228,440 @@ background-color: #ff9945ff;
 }
 
 /* rodapé */
-footer{
-    padding: 3vh; /* respiro do conteudo */
-    background-color: rgb(218, 179, 150); /* cor de fundo */
-    
+footer {
+    padding: 3vh;
+    /* respiro do conteudo */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
+
 }
 
-#infoFooter{
-    display: flex; /* display flexivel */ 
-    padding: 2rem; /* respiro do conteudo */
+#infoFooter {
     display: flex;
+    /* display flexivel */
+    padding: 2rem;
+    /* respiro do conteudo */
     justify-content: center;
+    align-items: center;
 }
 
-#infoFooter div{
+#infoFooter div {
     margin: 3vw;
 }
 
-#divInfo h3{
-    font-size: 1.7rem;
+#divIcon ul {
+    list-style: none;
+    /* estilo de lista */
+    display: flex;
+    /* display flexivel */
+    justify-content: center;
+    /* icones centralizados com a imagem */
 }
 
-#divInfo p{
-    font-size: 1.3rem;
+footer div a i {
+    /* aqui ainda estou chamando a tag do icone */
+    font-size: 2rem;
+    /* tamanho da fonte */
+    margin: 0 12px;
+    /* margem */
 }
 
-#divIcon ul{
-    list-style: none; /* estilo de lista */
-    display: flex; /* display flexivel */
-    justify-content: center; /* icones centralizados com a imagem */
+#divIcon ul a i:hover {
+    transition: 0.2s;
+    /* tempo de transição */
+    font-size: 2.1em;
+    /* tamanho da fonte */
 }
 
-footer div a i{
-    font-size: 2rem; /* tamanho da fonte */
-    margin: 0 12px; /* margem */
+
+.divFooter h3 {
+    text-align: center;
+    /* alinhamento do texto */
 }
 
-#divIcon ul a i:hover{
-    transition: 0.2s; /* tempo de transição */
-    font-size: 2.1em; /* tamanho da fonte */
+.divFooter p {
+    margin: 0 20px;
+    /* margem do paragrafo */
+    text-align: justify;
+    /* alinhamento do texto */
+    font-size: 14px;
+    /* tamanho da fonte */
 }
 
-.divFooter h3{
-    text-align: center; /* alinhamento do texto */
-}
-.divFooter p{
-    margin: 0 20px; /* margem do paragrafo */
-    text-align: justify; /* alinhamento do texto */
-    font-size: 14px; /* tamanho da fonte */
+#divInfo h3 {
+    font-size: 1.4rem;
 }
 
-#divInfo{
+#divInfo p {
+    font-size: 1.1rem;
+}
+
+#divInfo {
     width: 20rem;
-    text-align: justify; /* alinhamento do texto */
+    text-align: justify;
+    /* alinhamento do texto */
 }
-#infoFooter div img{
-    width: 30vh; /* largura */
+
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
+}
+
+footer p {
+    margin-top: 1em;
+    /* margem superior */
+    text-align: center;
+    /* alinhamento do texto */
+}
+
+#divContatos {
+    display: block;
+}
+
+#divContatos h3 {
+    align-items: start;
+}
+
+#divContatos p {
+    margin-top: 40px;
+    /* margem superior */
+}
+
+#divContatos p a {
+    text-decoration: none;
+    /* decoração do texto */
+    color: black;
+    /* cor da fonte */
+}
+
+.whats a i {
+    color: #1abd5b;
+    /* cor do icone do whatsapp */
+}
+
+.insta a i {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text;
+    /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0);
+    /* para deixar o icone transparente */
+}
+
+.in a i {
+    color: #0e76a8;
+    /* cor do icone do linkedin */
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        padding: 5vw;
+        /* para dar respiro no header */
+        background-color: rgb(218, 179, 150);
+        /* cor de fundo */
+        text-align: center;
+        /* alinhamento do texto */
+        align-items: center;
+        /* alinhamento dos itens */
+    }
     
-}
-footer p{
-    margin-top: 1em; /* margem superior */
-    text-align: center; /* alinhamento do texto */
-}
+    header div img {
+        width: 18vh;
+        /* largura da div do header */
+    }
+    
+    .linksHeader nav {
+        display: flex;
+        /* para deixar um ao lado do outro */
+        justify-content: space-around;
+        /* para dar espaço nos itens de forma igual */
+    }
+    
+    .linksHeader ul {
+        display: flex;
+        /* para deixar um ao lado do outro */
+        list-style: none;
+        /* para deixar sem estilo de lista */
+    
+    }
+    
+    .linksHeader ul li {
+        margin: 0 5px;
+        /* para dar margem */
+        font-size: 8px;
+    }
+    
+    .submenu {
+        display: none;
+        /* desaparecimento do conteúdo */
+        position: absolute;
+        /* deixar o título do topo */
+        background-color: rgba(255, 255, 255, 0.97);
+        /* cor de fundo */
+    }
+    
+    .menu .submenu {
+        /* organização do menu */
+        margin-top: 4px;
+        margin-left: -10px;
+    }
+    
+    .submenu a {
+        display: block;
+        /* deixa os submenus um embaixo do outro */
+        padding: 1.2vh;
+    }
+    
+    .submenu a:hover {
+        /* config. do menu */
+        background-color: orange;
+        transition: 0.5s;
+    }
+    
+    .menu:hover .submenu {
+        /* apenas apareça caso o mouse passe por cima */
+        display: block;
+    }
+    
+    #direcionamento li a {
+        text-decoration: none;
+        /* para tirar o estilo do texto */
+        color: black;
+        /* cor da fonte */
+    }
+    
+    #icones li a {
+        text-decoration: none;
+        /* para tirar o estilo do texto */
+        font-size: 1.5em;
+        /* tamanho da fonte */
+    }
+    
+    #icones li a:hover {
+        font-size: 1.55em;
+        /* tamanho da fonte */
+        transition: 0.4s;
+        /* tempo para mudar ao passar o mouse */
+    }
 
-#divContatos p{
-   margin-top: 40px; /* margem superior */
-   
-}
-#divContatos p a{
-    text-decoration: none; /* decoração do texto */
-    color: black; /* cor da fonte */
-}
+    #direcionamento li a {
+        text-decoration: none;
+        /* para tirar o estilo do texto */
+        color: black;
+        /* cor da fonte */
+    }
+    
+    #titulo {
+        background-image: url(imagens/esporte.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -1px;
+    }
+    
+    #titulo div {
+        padding: 3em;
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    #titulo h2 {
+        padding: 0px 7.5px;
+    }
+    
+    #pt1 {
+        padding: 10vw;
+        display: flex;
+        align-items: center;
+        background-color: #ebebebff;
+    }
+    
+    #pt1 div {
+        padding-right: 0.5em;
+    }
+    
+    #pt1 h2 {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+    
+    #pt1 p {
+        font-size: 8px;
+        text-align: justify;
+    }
+    
+    #pt1 img {
+        width: 10em;
+        padding-left: 1em;
+    }
+    
+    #pt2 {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    background-color: #ff9945ff;
+    }
+    
+    #pt2 div {
+        padding-right: em;
+    }
+    
+    #pt2 p {
+        font-size: 8px;
+        text-align: justify;
+        padding-right: 2em;
+    }
+    
+    #pt2 img {
+        width: 9em;
+        padding-left: 1em;
+    }
+    
+    #pt3 {
+        padding: 10vw;
+        display: flex;
+        align-items: center;
+        background-color: #ebebebff;
+    }
+    
+    #pt3 p {
+        font-size: 10px;
+        text-align: justify;
+        padding-left: 2em;
+    }
+    
+    #pt3 img {
+        width: 10em;
+        padding-right: 2em;
+    }
+    
+    /*id pt4 onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
+    #pt4 {
+        background-color: #ff9945ff;
+        /* cor do fundo */
+        height: auto;
+        /* altura automatica */
+        color: white;
+        /* cor do texto */
+        padding: 3em;
+        /* respiro dp conteudo */
+        text-align: center;
+        /* alinhamento do texto */
+    }
+    
+    #pt4 h2 {
+        font-size: 1em;
+        /* tamanho da fonte */
+        margin-bottom: 20px;
+        /* margem inferior */
+    }
+    
+    #pt4 p {
+        font-size: 1em;
+        /* tamanho da fonte */
+    }
+    
+    #part-five a {
+        color: rgb(183, 0, 255);
+        /* cor do texto */
+        cursor: pointer;
+        /* cursor ao passar o mouse */
+        text-decoration: none;
+        /* decoração do texto */
+    }
+    
+    /* rodapé */
+    footer{
+        padding: 2vw; /* respiro do conteudo */
+        background-color: rgb(218, 179, 150); /* cor de fundo */
+    }
+    
+    #infoFooter{
+        display: flex; /* display flexivel */ 
+        padding: 1em; /* respiro do conteudo */
+        display: flex;
+        justify-content: center;
+    }
+    
+    #infoFooter div{
+        margin: 0.4vw;
+    }
+    
+    #divInfo h3{
+        font-size: 0.8rem;
+    }
+    
+    #divInfo p{
+        font-size: 0.4rem;
+    }
+    
+    #divIcon ul{
+        list-style: none; /* estilo de lista */
+        display: flex; /* display flexivel */
+        justify-content: center; /* icones centralizados com a imagem */
+    }
+    
+    footer div a i{
+        font-size: 1rem; /* tamanho da fonte */
+        margin: 0 3px; /* margem */
+    }
+    
+    #divIcon ul a i:hover{
+        transition: 0.2s; /* tempo de transição */
+        font-size: 0.5em; /* tamanho da fonte */
+    }
+    
+    .divFooter h3{
+        text-align: center; /* alinhamento do texto */
+        font-size: 13px;
+    }
 
-.whats a i{
-    color: #1abd5b; /* cor do icone do whatsapp */
-}
+    .divFooter p{
+        margin: 0 20px; /* margem do paragrafo */
+        text-align: justify; /* alinhamento do texto */
+        font-size: 8px; /* tamanho da fonte */
+    }
 
-.insta a i{
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
-    background-clip: text; /* para recortar o fundo no formato do texto */
-    color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
-}
-
-.in a i{
-    color: #0e76a8; /* cor do icone do linkedin */
+    #divInfo{
+        width: 50em;
+        text-align: justify; /* alinhamento do texto */
+    }
+    #infoFooter div img{
+        width: 12vh; /* largura */
+        
+    }
+    footer p{
+        margin-top: 1em; /* margem superior */
+        text-align: center; /* alinhamento do texto */
+        font-size: 7px;
+    }
+    
+    #divContatos p{
+       margin-top: 10px; /* margem superior */
+    }
+    #divContatos p a{
+        text-decoration: none; /* decoração do texto */
+        color: black; /* cor da fonte */
+    }
+    
+    .whats a i{
+        color: #1abd5b; /* cor do icone do whatsapp */
+    }
+    
+    .insta a i{
+        background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+        background-clip: text; /* para recortar o fundo no formato do texto */
+        color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
+    }
+    
+    .in a i{
+        color: #0e76a8; /* cor do icone do linkedin */
+    }
 }
 
 /* CSS HEX 
