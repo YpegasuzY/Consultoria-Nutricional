@@ -56,7 +56,6 @@ margin-left: -15px;
     color: black;
 }
 
-
 .submenu a {
     display: block;
     /* deixa os submenus um embaixo do outro */
@@ -145,7 +144,6 @@ margin-left: -15px;
 
 #blocos {
 display: flex;
-
 }
 
 /* rodapé */
