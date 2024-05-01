@@ -1,346 +1,461 @@
-*{
-    margin: 0; /* para deixar a pagina sem margem */
-    padding: 0; /* para deixar a pagina sem respito */
+* {
+    margin: 0;
+    /* para deixar a pagina sem margem */
+    padding: 0;
+    /* para deixar a pagina sem respito */
 }
+
 /* cabeçalho */
-header{
-    padding: 3vh; /* para dar respiro no header */
-    background-color: rgb(218, 179, 150); /* cor de fundo */
+header {
+    padding: 3vh;
+    /* para dar respiro no header */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
 }
-#imagemHeader{
+
+#imagemHeader {
     text-align: center;
 }
-header div img{
+
+header div img {
     height: 30vh;
 }
 
-.linksHeader nav{
-    display: flex; /* para deixar um ao lado do outro */
-    justify-content: space-around; /* para dar espaço nos itens de forma igual */
+.linksHeader nav {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    justify-content: space-around;
+    /* para dar espaço nos itens de forma igual */
 }
 
-.linksHeader ul{
-    display: flex; /* para deixar um ao lado do outro */
-    list-style: none; /* para deixar sem estilo de lista */
+.linksHeader ul {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    list-style: none;
+    /* para deixar sem estilo de lista */
 }
 
-.linksHeader ul li{
-      margin: 0 20px; /* para dar margem */
+.linksHeader ul li {
+    margin: 0 20px;
+    /* para dar margem */
 }
 
 .submenu {
-    display: none; /* desaparecimento do conteúdo */
-    position: absolute; /* deixar o título do topo */
-    background-color: rgba(255, 255, 255, 0.97); /* cor de fundo */
+    display: none;
+    /* desaparecimento do conteúdo */
+    position: absolute;
+    /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97);
+    /* cor de fundo */
 }
 
-.menu .submenu { /* organização do menu */
-margin-top: 8px; 
-margin-left: -20px;
+.menu .submenu {
+    /* organização do menu */
+    margin-top: 8px;
+    margin-left: -20px;
 }
 
-.submenu a { 
-    display: block; /* deixa os submenus um embaixo do outro */
+.submenu a {
+    display: block;
+    /* deixa os submenus um embaixo do outro */
     padding: 2vh;
     text-align: center;
 }
 
-.submenu a:hover { /* config. do menu */
-    background-color: orange; 
+.submenu a:hover {
+    /* config. do menu */
+    background-color: orange;
     transition: 0.5s;
 }
 
-.menu:hover .submenu { /* apenas apareça caso o mouse passe por cima */
-display: block;
+.menu:hover .submenu {
+    /* apenas apareça caso o mouse passe por cima */
+    display: block;
 }
 
-#direcionamento li a{  
-    text-decoration: none; /* para tirar o estilo do texto */
-    color: black; /* cor da fonte */
+#direcionamento li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    color: black;
+    /* cor da fonte */
 }
 
-#icones li a{
-    text-decoration: none; /* para tirar o estilo do texto */
-    font-size: 1.5em; /* tamanho da fonte */
+#icones li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    font-size: 1.5em;
+    /* tamanho da fonte */
 }
 
-#icones li a:hover{
-    font-size: 1.55em; /* tamanho da fonte */
-    transition: 0.4s; /* tempo para mudar ao passar o mouse */
+#icones li a:hover {
+    font-size: 1.55em;
+    /* tamanho da fonte */
+    transition: 0.4s;
+    /* tempo para mudar ao passar o mouse */
 }
 
 /* primeira sessão */
-#introNutri{
-    background-image: url(imagens/bg\ header.jpg); /* imagem de fundo */
-    background-repeat: no-repeat; /* para a imagem não repetir */
-    background-position: center; /* para posicionar a imagem */
-    padding: 4vh; /* respiro do conteudo */
-    background-size: cover; /* para ajustar o tamanho da imagem */
+#introNutri {
+    background-image: url(imagens/bg\ header.jpg);
+    /* imagem de fundo */
+    background-repeat: no-repeat;
+    /* para a imagem não repetir */
+    background-position: center;
+    /* para posicionar a imagem */
+    padding: 4vh;
+    /* respiro do conteudo */
+    background-size: cover;
+    /* para ajustar o tamanho da imagem */
 }
 
-#introNutri div{
-    margin: 1.2em 10em; /* margem do conteudo */
-    max-width: 30vw; /* para ajustar o tamanho maximo da div */
+#introNutri div {
+    margin: 1.2em 10em;
+    /* margem do conteudo */
+    max-width: 30vw;
+    /* para ajustar o tamanho maximo da div */
 
 }
 
-#introNutri div h1{
-    font-size: 2em; /* tamanho da fonte */
+#introNutri div h1 {
+    font-size: 2em;
+    /* tamanho da fonte */
 }
 
-#introNutri div p{
-    margin-top: 10px; /* margem com relação ao conteudo de cima */
-    font-size: 1.3em; /* tamanho de fonte */
+#introNutri div p {
+    margin-top: 10px;
+    /* margem com relação ao conteudo de cima */
+    font-size: 1.3em;
+    /* tamanho de fonte */
 }
 
 /* segunda sessão */
-#esporte{
-    background-image: url(imagens/sessaoEsporte.jpg); /* imagem de fundo */
-    background-repeat: no-repeat; /* para não repetir */
-    background-position: left; /* posição da imagem */
-    background-size: cover; /* tamanho da imagem */
-    padding: 15vh; /* respiro do conteudo */
+#esporte {
+    background-image: url(imagens/sessaoEsporte.jpg);
+    /* imagem de fundo */
+    background-repeat: no-repeat;
+    /* para não repetir */
+    background-position: left;
+    /* posição da imagem */
+    background-size: cover;
+    /* tamanho da imagem */
+    padding: 15vh;
+    /* respiro do conteudo */
 }
 
-#esporte div{
-    margin-left: 4rem; /* margem da esquerda */
-    max-width: 36vw; /* largura maxima da div */
-    text-align: justify; /* alinhamento de texto */
+#esporte div {
+    margin-left: 4rem;
+    /* margem da esquerda */
+    max-width: 36vw;
+    /* largura maxima da div */
+    text-align: justify;
+    /* alinhamento de texto */
 }
 
-#esporte div h2{
-    font-size: 1.7rem; /* tamanho da fonte */
+#esporte div h2 {
+    font-size: 1.7rem;
+    /* tamanho da fonte */
 }
 
-#esporte div p{
-    margin-top: 15px; /* margem em relaçao ao conteudo acima */
-    font-size: 1.2em; /* tamanho da fonte */
+#esporte div p {
+    margin-top: 15px;
+    /* margem em relaçao ao conteudo acima */
+    font-size: 1.2em;
+    /* tamanho da fonte */
 }
 
-#esporte div ul li{
-    margin-top: 8px; /* margem de cima */
-    margin-left: 1.2rem; /* margem da esquerda */
+#esporte div ul li {
+    margin-top: 8px;
+    /* margem de cima */
+    margin-left: 1.2rem;
+    /* margem da esquerda */
 }
 
-#esporte a button{
-    margin-left: 4rem; /* margem da esquerda */
-    margin-top: 20px; /* margem de cima */
-    padding: 1em; /* respiro do botão */
-    width: 10rem; /* largura */
-    border-radius: 3em; /* arredondamento da borda do botão */
-    border-color: #ffbe92ff; /* cor da borda */
-    background-color: #ebebebff; /* cor do fundo do botão */
-    cursor: pointer; 
+#esporte a button {
+    margin-left: 4rem;
+    /* margem da esquerda */
+    margin-top: 20px;
+    /* margem de cima */
+    padding: 1em;
+    /* respiro do botão */
+    width: 10rem;
+    /* largura */
+    border-radius: 3em;
+    /* arredondamento da borda do botão */
+    border-color: #ffbe92ff;
+    /* cor da borda */
+    background-color: #ebebebff;
+    /* cor do fundo do botão */
+    cursor: pointer;
 }
 
-#esporte a button:hover{
-    background-color: #fffba5ff; /* cor de fundo ao passar o mouse */
-    border-color: white; /* cor da borda ao passar o mouse */
-    transition: 0.7s; /* tempo de transição */
+#esporte a button:hover {
+    background-color: #fffba5ff;
+    /* cor de fundo ao passar o mouse */
+    border-color: white;
+    /* cor da borda ao passar o mouse */
+    transition: 0.7s;
+    /* tempo de transição */
 }
 
 /* tercerira sessão */
-#saude{
-    background-image: url(imagens/sessaoSaude.jpg); /* imagem de fundo */
-    background-repeat: no-repeat; /* para não repetir */
-    background-position: left; /* posição da imagem de fundo */
-    background-size: cover; /* tamanho da imagem de fundo */
-    padding: 15vh; /* respiro do conteudo */
-    display: grid; /* display em grade para manuseio do conteudo em grade */
-    justify-content: right; /* justificar conteudo a direita */
+#saude {
+    background-image: url(imagens/sessaoSaude.jpg);
+    /* imagem de fundo */
+    background-repeat: no-repeat;
+    /* para não repetir */
+    background-position: left;
+    /* posição da imagem de fundo */
+    background-size: cover;
+    /* tamanho da imagem de fundo */
+    padding: 15vh;
+    /* respiro do conteudo */
+    display: grid;
+    /* display em grade para manuseio do conteudo em grade */
+    justify-content: right;
+    /* justificar conteudo a direita */
 }
 
-#saude div{
-    max-width: 36vw; /* largura maxima da div */
-    text-align: justify; /* alinhamento do texto */
+#saude div {
+    max-width: 36vw;
+    /* largura maxima da div */
+    text-align: justify;
+    /* alinhamento do texto */
 }
 
-#saude div h2{
-    font-size: 1.5rem; /* tamanho da fonte do titulo */
+#saude div h2 {
+    font-size: 1.5rem;
+    /* tamanho da fonte do titulo */
 }
 
-#saude div p{
-    margin-top: 15px; /* margem em relação ao conteudo superior */
-    font-size: 1.2em; /* tamanho da fonte */
+#saude div p {
+    margin-top: 15px;
+    /* margem em relação ao conteudo superior */
+    font-size: 1.2em;
+    /* tamanho da fonte */
 }
 
-#saude div ul li{
-    margin-top: 8px; /* margem em relação ao conteudo acima */
-    margin-left: 1.2rem; /* margem em da esquerda */
+#saude div ul li {
+    margin-top: 8px;
+    /* margem em relação ao conteudo acima */
+    margin-left: 1.2rem;
+    /* margem em da esquerda */
 }
 
-#saude a button{
-    margin-top: 20px; /* margem de cima */
-    padding: 1em; /* respiro do conteudo a borda do botão */
-    width: 10rem; /* largura do botão */
-    border-radius: 3em; /* arredondamento da borda */
-    border-color: #ffbe92ff; /* cor da borda */
-    background-color: #ebebebff; /* cor do fundo */
-    cursor: pointer; /* tipo de cursos */
+#saude a button {
+    margin-top: 20px;
+    /* margem de cima */
+    padding: 1em;
+    /* respiro do conteudo a borda do botão */
+    width: 10rem;
+    /* largura do botão */
+    border-radius: 3em;
+    /* arredondamento da borda */
+    border-color: #ffbe92ff;
+    /* cor da borda */
+    background-color: #ebebebff;
+    /* cor do fundo */
+    cursor: pointer;
+    /* tipo de cursos */
 }
 
-#saude a button:hover{
-    background-color: #fffba5ff; /* cor de fundo ao passar o mouse */
-    border-color: white; /* cor da borda ao passar o mouse */
-    transition: 0.7s; /* tempo da alteração */
+#saude a button:hover {
+    background-color: #fffba5ff;
+    /* cor de fundo ao passar o mouse */
+    border-color: white;
+    /* cor da borda ao passar o mouse */
+    transition: 0.7s;
+    /* tempo da alteração */
 }
 
 /* rodapé */
-footer{
-    padding: 3vh; /* respiro do conteudo */
-    background-color: rgb(218, 179, 150); /* cor de fundo */
-    
+footer {
+    padding: 3vh;
+    /* respiro do conteudo */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
+
 }
 
-#infoFooter{
-    display: flex; /* display flexivel */ 
-    padding: 2rem; /* respiro do conteudo */
+#infoFooter {
+    display: flex;
+    /* display flexivel */
+    padding: 2rem;
+    /* respiro do conteudo */
     justify-content: center;
     align-items: center;
 }
 
-#infoFooter div{
+#infoFooter div {
     margin: 3vw;
 }
 
-#divIcon ul{
-    list-style: none; /* estilo de lista */
-    display: flex; /* display flexivel */
-    justify-content: center; /* icones centralizados com a imagem */
+#divIcon ul {
+    list-style: none;
+    /* estilo de lista */
+    display: flex;
+    /* display flexivel */
+    justify-content: center;
+    /* icones centralizados com a imagem */
 }
 
-footer div a i{ /* aqui ainda estou chamando a tag do icone */
-    font-size: 2rem; /* tamanho da fonte */
-    margin: 0 12px; /* margem */
+footer div a i {
+    /* aqui ainda estou chamando a tag do icone */
+    font-size: 2rem;
+    /* tamanho da fonte */
+    margin: 0 12px;
+    /* margem */
 }
 
-#divIcon ul a i:hover{
-    transition: 0.2s; /* tempo de transição */
-    font-size: 2.1em; /* tamanho da fonte */
+#divIcon ul a i:hover {
+    transition: 0.2s;
+    /* tempo de transição */
+    font-size: 2.1em;
+    /* tamanho da fonte */
 }
 
 
-.divFooter h3{
-    text-align: center; /* alinhamento do texto */
-}
-.divFooter p{
-    margin: 0 20px; /* margem do paragrafo */
-    text-align: justify; /* alinhamento do texto */
-    font-size: 14px; /* tamanho da fonte */
+.divFooter h3 {
+    text-align: center;
+    /* alinhamento do texto */
 }
 
-#divInfo h3{
+.divFooter p {
+    margin: 0 20px;
+    /* margem do paragrafo */
+    text-align: justify;
+    /* alinhamento do texto */
+    font-size: 14px;
+    /* tamanho da fonte */
+}
+
+#divInfo h3 {
     font-size: 1.4rem;
 }
 
-#divInfo p{
+#divInfo p {
     font-size: 1.1rem;
 }
 
-#divInfo{
+#divInfo {
     width: 20rem;
-    text-align: justify; /* alinhamento do texto */
+    text-align: justify;
+    /* alinhamento do texto */
 }
-#infoFooter div img{
-    width: 30vh; /* largura */
-    
+
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
 }
-footer p{
-    margin-top: 1em; /* margem superior */
-    text-align: center; /* alinhamento do texto */
+
+footer p {
+    margin-top: 1em;
+    /* margem superior */
+    text-align: center;
+    /* alinhamento do texto */
 }
-#divContatos{
+
+#divContatos {
     display: block;
 }
 
-#divContatos h3{
+#divContatos h3 {
     align-items: start;
 }
 
-#divContatos p{
-   margin-top: 40px; /* margem superior */
-}
-#divContatos p a{
-    text-decoration: none; /* decoração do texto */
-    color: black; /* cor da fonte */
+#divContatos p {
+    margin-top: 40px;
+    /* margem superior */
 }
 
-.whats a i{
-    color: #1abd5b; /* cor do icone do whatsapp */
+#divContatos p a {
+    text-decoration: none;
+    /* decoração do texto */
+    color: black;
+    /* cor da fonte */
 }
 
-.insta a i{
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D); /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
-    background-clip: text; /* para recortar o fundo no formato do texto */
-    color: rgba(0, 0, 0, 0); /* para deixar o icone transparente */
+.whats a i {
+    color: #1abd5b;
+    /* cor do icone do whatsapp */
 }
 
-.in a i{
-    color: #0e76a8; /* cor do icone do linkedin */
+.insta a i {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text;
+    /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0);
+    /* para deixar o icone transparente */
 }
 
-@media screen and (max-width:991px){ 
-        #imagemHeader {
-            display: flex;
-            justify-content: center;
+.in a i {
+    color: #0e76a8;
+    /* cor do icone do linkedin */
+}
 
-        }
+@media screen and (max-width:991px) {
+    #imagemHeader {
+        display: flex;
+        justify-content: center;
 
-         #saude h2 {
-         text-align: left;
-         }
-         
-         #esporte h2{
-            text-align: left;
-         }
-            
+    }
 
-         footer {
-            padding: 10vh;
-         }
+    #saude h2 {
+        text-align: left;
+    }
 
-            #divInfo {
-            width: 15em;
-       
-         }
-
-         #divInfo h3{
-            font-size: 1.2rem;
-        }
-        
-
-         #divInfo p{
-            font-size: 0.9rem;
-        }
-
-         #divContatos p {
-            color: rgb(0, 0, 0);
-         }
-
-         #divContatos a {
-            text-decoration: none;
-         }
-
-         }
-
-        @media screen and (max-width:767px) {
-            #introNutri{
-                font-size: 0.7em;
-            }
-
-            #saude{
-                padding: 10vh;
-                font-size: 0.7em;
-            }
+    #esporte h2 {
+        text-align: left;
+    }
 
 
+    footer {
+        padding: 10vh;
+    }
+
+    #divInfo {
+        width: 15em;
+
+    }
+
+    #divInfo h3 {
+        font-size: 1.2rem;
+    }
+
+
+    #divInfo p {
+        font-size: 0.9rem;
+    }
+
+    #divContatos p {
+        color: rgb(0, 0, 0);
+    }
+
+    #divContatos a {
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    #introNutri {
+        font-size: 0.7em;
+    }
+
+    #saude {
+        padding: 10vh;
+        font-size: 0.7em;
+    }
 
 
 
 
 
 
-        }
+
+
+}
 
 
 
