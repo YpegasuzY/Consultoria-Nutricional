@@ -662,7 +662,59 @@ footer p {
     .in a i{
         color: #0e76a8; /* cor do icone do linkedin */
     }
+
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
 }
+
+footer p {
+    margin-top: 1em;
+    /* margem superior */
+    text-align: center;
+    /* alinhamento do texto */
+}
+
+#divContatos {
+    display: block;
+}
+
+#divContatos h3 {
+    align-items: start;
+}
+
+#divContatos p {
+    margin-top: 40px;
+    /* margem superior */
+}
+
+#divContatos p a {
+    text-decoration: none;
+    /* decoração do texto */
+    color: black;
+    /* cor da fonte */
+}
+
+.whats a i {
+    color: #1abd5b;
+    /* cor do icone do whatsapp */
+}
+
+.insta a i {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text;
+    /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0);
+    /* para deixar o icone transparente */
+}
+
+.in a i {
+    color: #0e76a8;
+    /* cor do icone do linkedin */
+}
+
 
 /* CSS HEX 
 --sandy-brown: #ff9945ff;
