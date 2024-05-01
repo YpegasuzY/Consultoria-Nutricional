@@ -329,45 +329,12 @@ footer p{
             }
 
             #saude{
-                padding: 8vh;
-                font-size: 0.8em;
-                background-position: center;
+                padding: 10vh;
+                font-size: 0.7em;
             }
 
-            #saude a button{
-                width: 8rem;
-                font-size: 0.9em;
-            }
 
-            #esporte{
-                padding: 8vh;
-                font-size: 0.8em;
-                background-position: center;
-            }
 
-            #esporte a button{
-                width: 8rem;
-                font-size: 0.9em;
-            }
-
-            footer {
-                padding: 0vh;
-             } 
-
-             footer p{
-                font-size: 12px;
-             }
-             #infoFooter div{
-                margin: 0 1vw;
-             }
-
-             #divInfo p{
-                font-size: 0.8em;
-             }
-
-             #divContatos p{
-                font-size: 0.8em;
-             }
 
 
 

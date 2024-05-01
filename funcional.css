@@ -5,37 +5,46 @@
 }
 
 header {
-    display: flex;
     padding: 3vh;
-    background-color: rgba(255, 166, 0, 0.685);
-    height: 13rem;
+    /* para dar respiro no header */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
 }
 
-header img {
-    width: 14rem;
-    height: 14rem;
-    margin-left: 10%;
+#imagemHeader {
+    text-align: center;
 }
 
-#listapai {
+header div img {
+    height: 30vh;
+}
+
+.linksHeader nav {
     display: flex;
+    /* para deixar um ao lado do outro */
+    justify-content: space-around;
+    /* para dar espaço nos itens de forma igual */
 }
 
-#listapai a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+.linksHeader ul {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    list-style: none;
+    /* para deixar sem estilo de lista */
 }
 
-#lista {
-    margin-left: 20rem;
-    padding: 4rem;
+.linksHeader ul li {
+    margin: 0 20px;
+    /* para dar margem */
 }
 
 .submenu {
     display: none;
+    /* desaparecimento do conteúdo */
     position: absolute;
-    background: rgba(255, 255, 255, 0.97);
+    /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97);
+    /* cor de fundo */
 }
 
 .menu .submenu {
@@ -50,7 +59,9 @@ margin-left: -15px;
 
 .submenu a {
     display: block;
+    /* deixa os submenus um embaixo do outro */
     padding: 2vh;
+    text-align: center;
 }
 
 #listapai .submenu a:hover {
@@ -63,9 +74,11 @@ margin-left: -15px;
     display: block;
 }
 
-#icones {
-    margin-left: 10rem;
-    padding: 4rem;
+#direcionamento li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    color: black;
+    /* cor da fonte */
 }
 
 #secao1 {
@@ -83,34 +96,176 @@ margin-left: -15px;
     text-align: center;
 }
 
-.titulo {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+#icones li a:hover {
+    font-size: 1.55em;
+    /* tamanho da fonte */
+    transition: 0.4s;
+    /* tempo para mudar ao passar o mouse */
+}
+
+#titulo {
+    background-image: url(imagens/funcional.jpg);
+    background-position: center;
+    color: white;
+    /* cor de texto */
     text-align: center;
+    /* centralização do texto */
+    padding: 5em;
+    /* respiro da seção */
+    height: auto;
+    /* altura responsiva */
 }
 
-#divpai {
+#pt1 {
+    padding: 10vw;
     display: flex;
+    align-items: center;
+    background-color: #ebebebff;
 }
 
-#paragrafo {
-    margin-top: 8rem;
-    padding: 5rem;
+#pt1 div {
+    padding-left: 1em;
 }
 
-h2 {
+#pt1 h2 {
+    font-size: 35px;
     text-align: center;
-    margin-top: 3rem;
+    margin-bottom: 0.5em;
 }
 
-#alimentospai {
-    margin-top: 3rem;
+#pt1 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pt1 img {
+    width: 35em;
+    padding-right: 1em;
+}
+
+/* rodapé */
+footer {
+    padding: 3vh;
+    /* respiro do conteudo */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
+
+}
+
+#infoFooter {
     display: flex;
-    width: 20px;
-    height: 20px;
+    /* display flexivel */
+    padding: 2rem;
+    /* respiro do conteudo */
+    justify-content: center;
+    align-items: center;
 }
 
-.div-img img  {
+#infoFooter div {
+    margin: 3vw;
+}
+
+#divIcon ul {
+    list-style: none;
+    /* estilo de lista */
+    display: flex;
+    /* display flexivel */
+    justify-content: center;
+    /* icones centralizados com a imagem */
+}
+
+footer div a i {
+    /* aqui ainda estou chamando a tag do icone */
+    font-size: 2rem;
+    /* tamanho da fonte */
+    margin: 0 12px;
+    /* margem */
+}
+
+#divIcon ul a i:hover {
+    transition: 0.2s;
+    /* tempo de transição */
+    font-size: 2.1em;
+    /* tamanho da fonte */
+}
+
+
+.divFooter h3 {
+    text-align: center;
+    /* alinhamento do texto */
+}
+
+.divFooter p {
+    margin: 0 20px;
+    /* margem do paragrafo */
+    text-align: justify;
+    /* alinhamento do texto */
+    font-size: 14px;
+    /* tamanho da fonte */
+}
+
+#divInfo h3 {
+    font-size: 1.4rem;
+}
+
+#divInfo p {
+    font-size: 1.1rem;
+}
+
+#divInfo {
     width: 20rem;
-    height: 15rem;
+    text-align: justify;
+    /* alinhamento do texto */
+}
+
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
+}
+
+footer p {
+    margin-top: 1em;
+    /* margem superior */
+    text-align: center;
+    /* alinhamento do texto */
+}
+
+#divContatos {
+    display: block;
+}
+
+#divContatos h3 {
+    align-items: start;
+}
+
+#divContatos p {
+    margin-top: 40px;
+    /* margem superior */
+}
+
+#divContatos p a {
+    text-decoration: none;
+    /* decoração do texto */
+    color: black;
+    /* cor da fonte */
+}
+
+.whats a i {
+    color: #1abd5b;
+    /* cor do icone do whatsapp */
+}
+
+.insta a i {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #E1306C, #FD1D1D);
+    /* para adicionar cor de fundo com degrade para fazer a cor do app do instagran*/
+    background-clip: text;
+    /* para recortar o fundo no formato do texto */
+    color: rgba(0, 0, 0, 0);
+    /* para deixar o icone transparente */
+}
+
+.in a i {
+    color: #0e76a8;
+    /* cor do icone do linkedin */
 }
