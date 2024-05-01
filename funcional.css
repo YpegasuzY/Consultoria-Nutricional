@@ -39,22 +39,28 @@ header img {
 }
 
 .menu .submenu {
-margin-top: 8px;
+margin-top: 1px; /*conversar com bryan*/
 margin-left: -15px;
 }
+
+#listapai .submenu a {
+    color: black;
+}
+
 
 .submenu a {
     display: block;
     padding: 2vh;
 }
 
-.submenu a:hover {
+#listapai .submenu a:hover {
     background-color: orange;
+    color: white;
     transition: 0.5s;
 }
 
 .menu:hover .submenu {
-display: block;
+    display: block;
 }
 
 #icones {
@@ -62,7 +68,20 @@ display: block;
     padding: 4rem;
 }
 
-.imagem img {}
+#secao1 {
+    background: url(https://dglab.com.br/wp-content/uploads/2021/09/Nutric%CC%A7a%CC%83o-funcional-840x400.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem h1 {
+    font-size: 5vh;
+    text-align: center;
+}
 
 .titulo {
     margin-top: 3rem;
@@ -84,7 +103,7 @@ h2 {
     margin-top: 3rem;
 }
 
-#alimentos {
+#alimentospai {
     margin-top: 3rem;
     display: flex;
     width: 20px;
