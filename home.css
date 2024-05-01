@@ -40,6 +40,10 @@ header div img {
     /* para dar margem */
 }
 
+.menu {
+    cursor: pointer;
+}
+
 .submenu {
     display: none;
     /* desaparecimento do conteúdo */
@@ -111,7 +115,7 @@ header div img {
 #introNutri div {
     margin: 1.2em 10em;
     /* margem do conteudo */
-    max-width: 30vw;
+    width: 30vw;
     /* para ajustar o tamanho maximo da div */
 
 }
@@ -145,8 +149,8 @@ header div img {
 #esporte div {
     margin-left: 4rem;
     /* margem da esquerda */
-    max-width: 36vw;
-    /* largura maxima da div */
+    width: 36vw;
+    /* largura da div */
     text-align: justify;
     /* alinhamento de texto */
 }
@@ -216,7 +220,7 @@ header div img {
 }
 
 #saude div {
-    max-width: 36vw;
+    width: 36vw;
     /* largura maxima da div */
     text-align: justify;
     /* alinhamento do texto */
@@ -289,6 +293,12 @@ footer {
     margin: 3vw;
 }
 
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
+}
+
 #divIcon ul {
     list-style: none;
     /* estilo de lista */
@@ -328,6 +338,14 @@ footer div a i {
     /* tamanho da fonte */
 }
 
+
+
+#divInfo {
+    width: 20rem;
+    text-align: justify;
+    /* alinhamento do texto */
+}
+
 #divInfo h3 {
     font-size: 1.4rem;
 }
@@ -336,17 +354,8 @@ footer div a i {
     font-size: 1.1rem;
 }
 
-#divInfo {
-    width: 20rem;
-    text-align: justify;
-    /* alinhamento do texto */
-}
 
-#infoFooter div img {
-    width: 30vh;
-    /* largura */
 
-}
 
 footer p {
     margin-top: 1em;
@@ -443,40 +452,111 @@ footer p {
         font-size: 0.7em;
     }
 
-            #saude{
-                padding: 10vh;
-                font-size: 0.7em;
-            }
-
-            #esporte a button{
-                width: 8rem;
-                font-size: 0.9em;
-            }
-
-            footer {
-                padding: 0vh;
-             } 
-
-             footer p{
-                font-size: 12px;
-             }
-             #infoFooter div{
-                margin: 0 1vw;
-             }
-
-             #divInfo p{
-                font-size: 0.8em;
-             }
-
-             #divContatos p{
-                font-size: 0.8em;
-             }
-        }
-
-    @media screen and (max-width:480px)
-    {
-        
+    #saude {
+        padding: 10vh;
+        font-size: 0.9em;
+        background-position: center;
     }
+
+    #saude a button {
+        width: 8rem;
+        font-size: 0.9em;
+    }
+
+    #esporte{
+        padding: 10vh;
+        font-size: 0.9em;
+        background-position: center;
+    }
+    
+    #esporte div{
+        margin-left: 30px;
+    }
+
+    #esporte a button {
+        width: 8rem;
+        font-size: 0.9em;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    #infoFooter div {
+        margin: 0 1vw;
+    }
+
+    #divInfo p {
+        font-size: 0.8em;
+    }
+
+    #divContatos p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:480px) {
+    header ul {
+        align-items: center;
+        font-size: 14px;
+    }
+
+    #introNutri div {
+        width: 12rem;
+        margin-left: 35px;
+        font-size: 12px;
+    }
+
+    #saude{
+        padding: 4vh;
+        background-position: left;
+        text-align: center;
+    }
+
+    #saude div{
+        margin-right: 20px;
+        width: 44vw;
+    }
+
+    #saude div h2{
+        font-size: 1.4em;
+    }
+    #saude div ul li{
+        margin-top: 2px;
+    }
+
+    #saude a button{
+        padding: 0.7em;
+    }
+
+    #esporte{
+        padding: 4vh;
+    }
+
+    #esporte div{
+        width: 44vw;
+    }
+
+    #esporte div ul li{
+        margin-top: 2px;
+    }
+
+    #esporte a button{
+        padding: 0.7em;
+    }
+
+
+
+
+
+
+
+
+}
 
 
 
