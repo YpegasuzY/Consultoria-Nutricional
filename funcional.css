@@ -143,6 +143,11 @@ margin-left: -15px;
     padding-right: 1em;
 }
 
+#blocos {
+display: flex;
+
+}
+
 /* rodapé */
 footer {
     padding: 3vh;
