@@ -463,13 +463,13 @@ footer p {
         font-size: 0.9em;
     }
 
-    #esporte{
+    #esporte {
         padding: 10vh;
         font-size: 0.9em;
         background-position: center;
     }
-    
-    #esporte div{
+
+    #esporte div {
         margin-left: 30px;
     }
 
@@ -511,49 +511,97 @@ footer p {
         font-size: 12px;
     }
 
-    #saude{
-        padding: 4vh;
+    #saude {
+        padding: 4vw;
         background-position: left;
         text-align: center;
     }
 
-    #saude div{
+    #saude div {
         margin-right: 20px;
         width: 44vw;
     }
 
-    #saude div h2{
+    #saude div h2 {
         font-size: 1.4em;
     }
-    #saude div ul li{
+
+    #saude div ul li {
         margin-top: 2px;
     }
 
-    #saude a button{
+    #saude a button {
         padding: 0.7em;
     }
 
-    #esporte{
-        padding: 4vh;
+    #esporte {
+        padding: 4vw;
     }
 
-    #esporte div{
+    #esporte div h2 {
+        font-size: 1.4em;
+    }
+
+    #esporte div {
         width: 44vw;
     }
 
-    #esporte div ul li{
+    #esporte div ul li {
         margin-top: 2px;
     }
 
-    #esporte a button{
+    #esporte a button {
         padding: 0.7em;
     }
 
+    #infoFooter div {
+        text-align: center;
+    }
+
+    #infoFooter div img {
+        width: 25vw;
+        height: auto;
+    }
+
+    footer div a i {
+        /* aqui ainda estou chamando a tag do icone */
+        font-size: 1.5rem;
+        /* tamanho da fonte */
+
+    }
+
+    #divIcon ul a i:hover {
+        transition: 0.2s;
+        /* tempo de transição */
+        font-size: 1.6em;
+        /* tamanho da fonte */
+    }
 
 
+    #divInfo {
+        text-align: justify;
+    }
+
+    #divInfo h3 {
+        font-size: 0.8rem;
+    }
+
+    #divInfo p {
+        margin: auto 10px;
+        font-size: 0.7rem;
+    }
+
+    #divContatos {
+        margin-left: 12px;
+        font-size: 12px;
+    }
 
 
-
+    #divContatos p {
+        
+        margin: 30px auto;
+        /* margem superior */
+    }
 
 
 }
