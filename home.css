@@ -548,6 +548,7 @@ footer p {
 
     #esporte div ul li {
         margin-top: 2px;
+        text-align: left;
     }
 
     #esporte a button {
@@ -598,7 +599,6 @@ footer p {
 
 
     #divContatos p {
-        
         margin: 30px auto;
         /* margem superior */
     }
@@ -606,7 +606,70 @@ footer p {
 
 }
 
+@media screen and (max-width: 479px){
+    .linksHeader nav{
+        display: block;
+    }
 
+    .linksHeader nav ul{
+        justify-content: center;
+    }
+
+    .linksHeader nav ul i{
+        margin-top: 10px;
+    }
+    
+    #introNutri{
+        padding: 3vw;
+    }
+
+    #introNutri div{
+        margin: 8px;
+    }
+
+    #saude div{
+        margin-right: 8px;
+    }
+
+    #esporte div{
+        margin-left: 8px;
+    }
+
+    #infoFooter{
+        padding: 3vh;
+        display: block;
+    }
+
+    #infoFooter div{
+        margin: 0 auto;
+        width: 70vw;
+    }
+
+    #infoFooter div img{
+        width: 50vw;
+    }
+
+    #divInfo h3{
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+    #divInfo p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    #divContatos h3{
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+
+    #divContatos p{
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
 
 
 
