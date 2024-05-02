@@ -403,49 +403,6 @@ footer p {
     /* cor do icone do linkedin */
 }
 
-@media screen and (max-width:991px) {
-    #imagemHeader {
-        display: flex;
-        justify-content: center;
-
-    }
-
-    #saude h2 {
-        text-align: left;
-    }
-
-    #esporte h2 {
-        text-align: left;
-    }
-
-
-    footer {
-        padding: 10vh;
-    }
-
-    #divInfo {
-        width: 15em;
-
-    }
-
-    #divInfo h3 {
-        font-size: 1.2rem;
-    }
-
-
-    #divInfo p {
-        font-size: 0.9rem;
-    }
-
-    #divContatos p {
-        color: rgb(0, 0, 0);
-    }
-
-    #divContatos a {
-        text-decoration: none;
-    }
-
-}
 
 @media screen and (max-width:767px) {
     #introNutri {
