@@ -420,6 +420,16 @@ footer p {
 
 /* configuração da responsividade */
 
+
+@media screen and (max-width: 400px){
+    #part-three div{
+        text-align: center;
+    }
+}
+
+
+
+
 @media screen and (max-width: 480px) {
     /* cabeçalho */
 
