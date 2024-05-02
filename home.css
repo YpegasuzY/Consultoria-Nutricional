@@ -273,6 +273,7 @@ header div img {
 
 /* rodapé */
 footer {
+    
     padding: 3vh;
     /* respiro do conteudo */
     background-color: rgb(218, 179, 150);
@@ -281,6 +282,7 @@ footer {
 }
 
 #infoFooter {
+    flex-wrap: wrap;
     display: flex;
     /* display flexivel */
     padding: 2rem;
@@ -341,7 +343,7 @@ footer div a i {
 
 
 #divInfo {
-    width: 20rem;
+    
     text-align: justify;
     /* alinhamento do texto */
 }
@@ -444,7 +446,7 @@ footer p {
     }
 
     #infoFooter div {
-        margin: 0 1vw;
+        margin: 1 1vw;
     }
 
     #divInfo p {

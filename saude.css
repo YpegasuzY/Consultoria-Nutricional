@@ -1,8 +1,11 @@
-*{
-    margin: 0; /* para deixar a pagina sem margem */
-    padding: 0; /* para deixar a pagina sem respito */
+* {
+    margin: 0;
+    /* para deixar a pagina sem margem */
+    padding: 0;
+    /* para deixar a pagina sem respito */
 }
 
+/* cabeçalho */
 header {
     padding: 3vh;
     /* para dar respiro no header */
@@ -35,6 +38,10 @@ header div img {
 .linksHeader ul li {
     margin: 0 20px;
     /* para dar margem */
+}
+
+.menu {
+    cursor: pointer;
 }
 
 .submenu {
@@ -92,145 +99,192 @@ header div img {
 }
 
 /*iniciada a estilização do id PART-ONE que informa para quem está direcionado o tema*/
-#part-one{
-    background-image: url(imagens/saúde.jpg); /* banner */
-    color: white; /* cor de texto */
-    text-align: center; /* centralização do texto */
-    padding: 5em; /* respiro da seção */
-    height: auto; /* altura responsiva */
+#part-one {
+    background-image: url(imagens/saúde.jpg);
+    /* banner */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* cor de texto */
+    text-align: center;
+    /* centralização do texto */
+    padding: 5vw;
+    /* respiro da seção */
 }
 
-#part-one h2{
-    font-size: 4em; /* tamanho da fonte */
+#part-one h2 {
+    font-size: 4em;
+    /* tamanho da fonte */
 }
 
-#part-one p{
-    font-size: 2em; /* tamanho da fonte */
-    margin-top: 20px; /* margin no topo */
+#part-one p {
+    font-size: 2em;
+    /* tamanho da fonte */
+    margin-top: 20px;
+    /* margin no topo */
 }
 
 
 /*id PART-TWO onde falamos do papel crucial da nutrição*/
-#part-two{
-    color: black; /* cor de texto */
-    padding: 5em 0em 5em; /* respiro apenas na vertical */
-    display: flex; /* seção flexivel */
-    justify-content: space-evenly; /* conteúdo lado a lado */
-    align-items: center; /* alinhamento vertical */
-    height: auto; /* altura responsiva */
-    
+#part-two {
+    color: black;
+    /* cor de texto */
+    padding: 3vw;
+    /* respiro apenas na vertical */
+    display: flex;
+    /* seção flexivel */
+    align-items: center;
+    /* alinhamento vertical */
 }
 
-#part-two h2{
-    font-size: 2em; /* tamanho da fonte */
-    text-align: center; /* centralização do texto */
-    width: 40vw; /* largura do texto */
+#part-two div {
+    margin: 20px;
 }
 
-#part-two p{
-    font-size: 1.5em; /* tamanho da fonte */
-    margin-top: 40px; /* margin no topo */
-    text-align: justify; /* texto justificado */
-    width: 40vw; /* largura do texto */
+#part-two h2 {
+    font-size: 2em;
+    /* tamanho da fonte */
+    text-align: center;
+    /* centralização do texto */
 }
 
-#part-two img{
-    height: auto; /* altura responsiva */
-    width: 35em; /* tamanho da imagem */
+#part-two p {
+    font-size: 1.5em;
+    /* tamanho da fonte */
+    text-align: justify;
+    /* texto justificado */
+}
+
+#part-two img {
+    height: auto;
+    /* altura responsiva */
+    width: 35vw;
+    /* tamanho da imagem */
 }
 
 /*id PART-THREE onde falamos da hidratação*/
-#part-three{
-    background-color: #ff9945ff; /* cor de fundo */
-    height: 25rem; /* altura da seção */
-    color: white; /* cor de texto */
-    padding: 4em; /* respiro da seção */
-    display: flex; /* tornar o display flex */
-    justify-content: space-evenly; /* justificar conteudo */
-    align-items: center; /* alinhar os itens */
-    height: auto; /* altura responsiva */ 
+#part-three {
+    background-color: #ff9945ff;
+    /* cor de fundo */
+    color: white;
+    /* cor de texto */
+    padding: 3vw;
+    /* respiro da seção */
+    display: flex;
+    /* tornar o display flex */
+    align-items: center;
+    /* alinhar os itens */
 }
 
-#part-three h2{
-    font-size: 2em; /* tamanho da fonte */
-    text-align: center; /* alinhamento de texto */
-    width: 40vw; /* largura */
+#part-three div {
+    margin: 0 10vh;
 }
 
-#part-three p{
-    font-size: 1.5em; /* tamanho da fonte */
-    margin-top: 20px; /* margem superior */
-    text-align: justify; /* alinhamento de texto */
-    width: 40vw; /* largura */
+#part-three h2 {
+    font-size: 2em;
+    /* tamanho da fonte */
+    text-align: center;
+    /* alinhamento de texto */
 }
 
-#part-three img{
-    height: auto; /* altura automatica */
-    width: 30vw; /* largura de acordo com o view port */
+#part-three p {
+    font-size: 1.5em;
+    /* tamanho da fonte */
+    margin-top: 20px;
+    /* margem superior */
+    text-align: justify;
+    /* alinhamento de texto */
+}
+
+#part-three img {
+    height: auto;
+    /* altura automatica */
+    width: 30vw;
+    /* largura de acordo com o view port */
 }
 
 
 /*id PART-FOUR onde falamos do Guia alimentar brasileiro*/
-#part-four{
-    
-    color: black; /* cor do texto */
-    padding: 5em; /* respiro da pagina */
-    text-align: center; /* alinhamento de texto */
-    height: auto; /* altura responsiva */
+#part-four {
+    color: black;
+    /* cor do texto */
+    padding: 5vw;
+    /* respiro da pagina */
+    text-align: center;
+    /* alinhamento de texto */
 }
 
-#part-four h2{
-    font-size: 2em; /* tamanho da fonte */
-    margin-top: 20px; /* margem superior */
-    margin: 3vw; /* margem dos quatro lados */
+#part-four h2 {
+    font-size: 2em;
+    /* tamanho da fonte */
+    margin-top: 20px;
+    /* margem superior */
+    margin: 3vw;
+    /* margem dos quatro lados */
 }
 
-#part-four p{
-    font-size: 1.5em; /* tamanho da fonte */
-    margin-top: 40px; /* margem superior */
-    text-align: justify; /* alinhamento de texto */
-    margin: 2vw; /* margem de todos os lados */
+#part-four p {
+    font-size: 1.5em;
+    /* tamanho da fonte */
+    margin-top: 40px;
+    /* margem superior */
+    text-align: justify;
+    /* alinhamento de texto */
+    margin: 2vw;
+    /* margem de todos os lados */
 }
 
 #fonte {
-    margin-top: 4em; /* margem superior */
+    margin-top: 4em;
+    /* margem superior */
 }
 
 #fonte p {
-margin-top: -1em; /* margem superior */
+    margin-top: -1em;
+    /* margem superior */
 }
 
-#fonte p a{
-    font-size: 15px; /* tamanho da fonte */
+#fonte p a {
+    font-size: 15px;
+    /* tamanho da fonte */
 }
 
 
 /*id PART-FIVE - linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
-#part-five{
-    background-color: #ff9945ff; /* cor do fundo */
-    height: auto; /* altura automatica */
-    color: white; /* cor do texto */
-    padding: 3em; /* respiro dp conteudo */
-    text-align: center; /* alinhamento do texto */
+#part-five {
+    background-color: #ff9945ff;
+    /* cor do fundo */
+    color: white;
+    /* cor do texto */
+    padding: 2vw;
+    /* respiro dp conteudo */
+    text-align: center;
+    /* alinhamento do texto */
 }
 
-#part-five h2{
-    font-size: 1.6em; /* tamanho da fonte */
-    margin-bottom: 40px; /* margem inferior */
+#part-five h2 {
+    font-size: 1.6em;
+    /* tamanho da fonte */
+    margin-bottom: 40px;
+    /* margem inferior */
 }
 
-#part-five p{
-    font-size: 1.4em; /* tamanho da fonte */
+#part-five p {
+    font-size: 1.4em;
+    /* tamanho da fonte */
 }
 
-#part-five a { 
-color: rgb(183, 0, 255); /* cor do texto */
-cursor: pointer; /* cursor ao passar o mouse */
-text-decoration: none; /* decoração do texto */
+#part-five a {
+    color: rgb(183, 0, 255);
+    /* cor do texto */
+    text-decoration: none;
+    /* decoração do texto */
 }
 
 /* rodapé */
 footer {
+
     padding: 3vh;
     /* respiro do conteudo */
     background-color: rgb(218, 179, 150);
@@ -239,6 +293,7 @@ footer {
 }
 
 #infoFooter {
+    flex-wrap: wrap;
     display: flex;
     /* display flexivel */
     padding: 2rem;
@@ -249,6 +304,13 @@ footer {
 
 #infoFooter div {
     margin: 3vw;
+    text-align: center;
+}
+
+#infoFooter div img {
+    width: 30vh;
+    /* largura */
+
 }
 
 #divIcon ul {
@@ -290,24 +352,18 @@ footer div a i {
     /* tamanho da fonte */
 }
 
-#divInfo h3 {
-    font-size: 1.4rem;
-}
-
-#divInfo p {
-    font-size: 1.1rem;
-}
-
 #divInfo {
     width: 20rem;
     text-align: justify;
     /* alinhamento do texto */
 }
 
-#infoFooter div img {
-    width: 30vh;
-    /* largura */
+#divInfo h3 {
+    font-size: 1.4rem;
+}
 
+#divInfo p {
+    font-size: 1.1rem;
 }
 
 footer p {
@@ -357,163 +413,267 @@ footer p {
 }
 
 
-
-
 /* configuração da responsividade */
 
-@media screen and (max-width: 400px){
-    
-    
+@media screen and (max-width: 479px) {
+    /* cabeçalho */
 
-header{
-    width: 400px;
-    flex-wrap: wrap;
-}
+    .linksHeader nav {
+        display: block;
+    }
 
-/*primeiro bloco > part-one*/
+    .linksHeader nav ul {
+        justify-content: center;
+    }
 
-    #part-one{
-        width: 400px;
-        background-size: 200vh;
-        padding: 10vw;
+    .linksHeader nav ul i {
+        margin-top: 10px;
+    }
+
+    /*primeiro bloco > part-one*/
+
+    #part-one {
+        padding: 5vw;
     }
 
 
-    #part-one h2{
+    #part-one h2 {
         font-size: 1.5em;
-        width: 400px; 
     }
 
-    #part-one p{
+    #part-one p {
         font-size: 1em;
-        width: 400px; 
     }
 
     /*segundo bloco > part-two*/
 
-    #part-two{
+    #part-two {
+        display: block;
+        padding: 5vw;
+    }
+
+    #part-two {
+        height: auto;
+    }
+
+    #part-two h2 {
+        font-size: 1.5em;
+        text-align: center;
+        
+    }
+
+    #part-two p {
+        font-size: 1em;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    #part-two img {
+        margin-top: 20px;
+        width: 20em;
+    }
+
+    /*terceiro bloco > part-three*/
+
+    #part-three {
         display: block;
         padding: 8vw;
     }
 
-    #part-two{
+    #part-three h2 {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #part-three img {
+        margin-top: 10px;
+        width: 15em;
+    }
+
+    #part-three p {
+        font-size: 1em;
+        margin-top: 10px auto;
+        text-align: justify;
+     
+    }
+
+
+    /*quarto bloco > part-four*/
+
+    #part-four {
+        display: block;
+        padding: 8vw;
+    }
+
+
+    #part-four h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #part-four p {
+        font-size: 1em;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    /*quinto bloco > part-five*/
+
+    #part-five {
+        padding: 8vw;  
+    }
+
+    #part-five h2 {
+        font-size: 1.3em;
+        text-align: center;    
+    }
+
+    #part-five p {
+        font-size: 0.8em;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    /*rodapé > footer*/
+
+    #infoFooter {
+        padding: 3vh;
+        display: block;
+    }
+
+    #infoFooter div {
+        margin: 0 auto;
+        width: 70vw;
+    }
+
+    #infoFooter div img {
+        width: 50vw;
+    }
+
+    #divInfo h3 {
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+
+    #divInfo p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    #divContatos h3 {
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+
+    #divContatos p {
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:480) {
+
+    /* cabecalho */
+    header ul {
+        align-items: center;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+    /* rodapé */
+    #infoFooter div {
+        text-align: center;
+    }
+
+    #infoFooter div img {
+        width: 25vw;
         height: auto;
     }
 
-    #part-two h2{
-        font-size: 1.5em; 
-        text-align: center; 
-        width: 400px; 
-    }
-   
-    #part-two p{
-        font-size: 1em; 
-        margin-top: 20px; 
-        text-align: justify; 
-        width: 400px; 
-    }
-    
-    #part-two img{
-        margin-top: 20px;
-        height: auto; 
-        width: 20em; 
-        margin-left: 30px;
-    }
-    
- /*terceiro bloco > part-three*/
+    footer div a i {
+        /* aqui ainda estou chamando a tag do icone */
+        font-size: 1.5rem;
+        /* tamanho da fonte */
 
- #part-three{
-    display: block;
-    padding: 8vw;
-    width: 400px; 
-}
-
-#part-three{
-    height: auto;
-}
-
-#part-three h2{
-    font-size: 1.5em; 
-    text-align: center; 
-    width: 400px; 
-    margin-top: 20px;
-}
-
-
-#part-three p{
-    font-size: 1em; 
-    margin-top: 20px; 
-    text-align: justify; 
-    width: 400px; 
-}
-
-#part-three img{
-    margin-top: 10px;
-    height: auto; 
-    width: 15em; 
-    margin-left: 70px;
-}
-
- /*quarto bloco > part-four*/
-
- #part-four{
-    display: block;
-    padding: 8vw;
-    width: 400px; 
-}
-
-
-#part-four h2{
-    font-size: 1.3em; 
-        text-align: center; 
-        width: 400px;  
-}
-
-#part-four p{
-    font-size: 1em; 
-        margin-top: 20px; 
-        text-align: justify; 
-        width: 400px; 
     }
 
- /*quinto bloco > part-five*/
+    #divIcon ul a i:hover {
+        transition: 0.2s;
+        /* tempo de transição */
+        font-size: 1.6em;
+        /* tamanho da fonte */
+    }
 
-#part-five{
-    padding: 8vw;
-    width: 400px; 
+
+    #divInfo {
+        text-align: justify;
+    }
+
+    #divInfo h3 {
+        font-size: 0.8rem;
+    }
+
+    #divInfo p {
+        margin: auto 10px;
+        font-size: 0.7rem;
+    }
+
+    #divContatos {
+        margin-left: 12px;
+        font-size: 12px;
+    }
+
+
+    #divContatos p {
+        margin: 30px auto;
+        /* margem superior */
+    }
+
 }
 
-#part-five h2{
-    
-        font-size: 1.3em; 
-            text-align: center; 
-            width: 400px;  
+@media screen and (max-width:767px) {
+
+
+
+
+
+
+
+
+
+    /* rodapé */
+    footer {
+        padding: 0;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    #infoFooter div {
+        margin: 1 1vw;
+    }
+
+    #divInfo p {
+        font-size: 0.8em;
+    }
+
+    #divContatos p {
+        font-size: 0.8em;
+    }
 }
-    
-    #part-five p{
-        font-size: 0.8em; 
-            margin-top: 20px; 
-            text-align: justify; 
-            width: 400px; 
-        }
-
-/*rodapé > footer*/
-
-footer{
-    width: 400px;
-    display: block;
-}
-
-footer #divInfo .divFooter p{
-    width: 200px;
-}
-
-}
-
-
-
-
-
 
 /*  */
 
