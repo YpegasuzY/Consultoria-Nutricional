@@ -44,6 +44,11 @@ header div img {
     cursor: pointer;
 }
 
+.menu button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .submenu {
     display: none;
     /* desaparecimento do conteúdo */
@@ -106,7 +111,7 @@ header div img {
     /* para a imagem não repetir */
     background-position: center;
     /* para posicionar a imagem */
-    padding: 4vh;
+    padding: 6vw;
     /* respiro do conteudo */
     background-size: cover;
     /* para ajustar o tamanho da imagem */
@@ -463,6 +468,17 @@ footer p {
         align-items: center;
         font-size: 14px;
     }
+    .linksHeader nav{
+        display: block;
+    }
+
+    .linksHeader nav ul{
+        justify-content: center;
+    }
+
+    .linksHeader nav ul i{
+        margin-top: 10px;
+    }
 
     #introNutri div {
         width: 12rem;
@@ -566,18 +582,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 479px){
-    .linksHeader nav{
-        display: block;
-    }
-
-    .linksHeader nav ul{
-        justify-content: center;
-    }
-
-    .linksHeader nav ul i{
-        margin-top: 10px;
-    }
+@media screen and (max-width: 460px){
     
     #introNutri{
         padding: 3vw;

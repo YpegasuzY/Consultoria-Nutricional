@@ -44,6 +44,11 @@ header div img {
     cursor: pointer;
 }
 
+.menu button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .submenu {
     display: none;
     /* desaparecimento do conteúdo */
@@ -415,7 +420,7 @@ footer p {
 
 /* configuração da responsividade */
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
     /* cabeçalho */
 
     .linksHeader nav {
@@ -453,7 +458,7 @@ footer p {
     }
 
     #part-two {
-        height: auto;
+       text-align: center;
     }
 
     #part-two h2 {
@@ -469,8 +474,7 @@ footer p {
     }
 
     #part-two img {
-        margin-top: 20px;
-        width: 20em;
+        width: 70vw;
     }
 
     /*terceiro bloco > part-three*/
@@ -488,7 +492,7 @@ footer p {
 
     #part-three img {
         margin-top: 10px;
-        width: 15em;
+        width: 60vw;
     }
 
     #part-three p {
@@ -576,82 +580,52 @@ footer p {
 }
 
 
-@media screen and (max-width:480) {
-
-    /* cabecalho */
-    header ul {
-        align-items: center;
-        font-size: 14px;
-    }
-
-
-
-
-
-
-
-
-
-    /* rodapé */
-    #infoFooter div {
-        text-align: center;
-    }
-
-    #infoFooter div img {
-        width: 25vw;
-        height: auto;
-    }
-
-    footer div a i {
-        /* aqui ainda estou chamando a tag do icone */
-        font-size: 1.5rem;
-        /* tamanho da fonte */
-
-    }
-
-    #divIcon ul a i:hover {
-        transition: 0.2s;
-        /* tempo de transição */
-        font-size: 1.6em;
-        /* tamanho da fonte */
-    }
-
-
-    #divInfo {
-        text-align: justify;
-    }
-
-    #divInfo h3 {
-        font-size: 0.8rem;
-    }
-
-    #divInfo p {
-        margin: auto 10px;
-        font-size: 0.7rem;
-    }
-
-    #divContatos {
-        margin-left: 12px;
-        font-size: 12px;
-    }
-
-
-    #divContatos p {
-        margin: 30px auto;
-        /* margem superior */
-    }
-
-}
-
 @media screen and (max-width:767px) {
 
 
+    #part-one h2{
+        font-size: 2.5rem;
+    }
 
+    #part-one p{
+        font-size: 1.5rem;
+    }
 
+    #part-two {
+        padding: 5vw;
+    }
 
+    #part-two h2{
+        font-size: 1.7rem;
+    }
 
+    #part-two p{
+        font-size: 1.3rem;
+    }
 
+    #part-three {
+        padding: 5vw;
+    }
 
+    #part-three h2{
+        font-size: 1.7rem;
+    }
+
+    #part-three p{
+        font-size: 1.3rem;
+    }
+
+    #part-four {
+        padding: 5vw;
+    }
+
+    #part-four h2{
+        font-size: 1.7rem;
+    }
+
+    #part-four p{
+        font-size: 1.3rem;
+    }
 
     /* rodapé */
     footer {

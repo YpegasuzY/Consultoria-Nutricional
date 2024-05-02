@@ -11,15 +11,14 @@ header {
     /* para dar respiro no header */
     background-color: rgb(218, 179, 150);
     /* cor de fundo */
+}
+
+#imagemHeader {
     text-align: center;
-    /* alinhamento do texto */
-    align-items: center;
-    /* alinhamento dos itens */
 }
 
 header div img {
-    width: 30vh;
-    /* largura da div do header */
+    height: 30vh;
 }
 
 .linksHeader nav {
@@ -34,12 +33,20 @@ header div img {
     /* para deixar um ao lado do outro */
     list-style: none;
     /* para deixar sem estilo de lista */
-
 }
 
 .linksHeader ul li {
     margin: 0 20px;
     /* para dar margem */
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu button {
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .submenu {
@@ -61,6 +68,7 @@ header div img {
     display: block;
     /* deixa os submenus um embaixo do outro */
     padding: 2vh;
+    text-align: center;
 }
 
 .submenu a:hover {
@@ -121,18 +129,18 @@ header div img {
     display: flex;
     align-items: center;
     background-color: #ebebebff;
-    
+
 }
 
 #pt1 div {
     margin: 0 30px;
 }
 
-#pt1Text{
+#pt1Text {
     width: 40vw;
 }
 
-#pt1Img img{
+#pt1Img img {
     height: 30vw;
 }
 
@@ -176,7 +184,7 @@ header div img {
     background-color: #ebebebff;
 }
 
-#pt3 div{
+#pt3 div {
     margin: 0 20px;
 }
 
@@ -186,7 +194,7 @@ header div img {
 }
 
 #pt3 img {
-    width: 40vw;   
+    width: 40vw;
 }
 
 /*id pt4 onde linkamos o tema alimentação com os demais serviços prestados por nossa Consultoria Nutricional*/
@@ -216,7 +224,6 @@ header div img {
 
 /* rodapé */
 footer {
-    
     padding: 3vh;
     /* respiro do conteudo */
     background-color: rgb(218, 179, 150);
@@ -228,18 +235,18 @@ footer {
     flex-wrap: wrap;
     display: flex;
     /* display flexivel */
-    padding: 2rem;
+    padding: 2vw;
     /* respiro do conteudo */
     justify-content: center;
     align-items: center;
 }
 
 #infoFooter div {
-    margin: 3vw;
+    margin: 30px;
 }
 
 #infoFooter div img {
-    width: 30vh;
+    width: 35vh;
     /* largura */
 
 }
@@ -286,7 +293,7 @@ footer div a i {
 
 
 #divInfo {
-    width: 20rem;
+    width: 18em;
     text-align: justify;
     /* alinhamento do texto */
 }
@@ -346,31 +353,48 @@ footer p {
 .in a i {
     color: #0e76a8;
     /* cor do icone do linkedin */
- }
+}
 
 
 
+/* iniciando responsividade */
 
 @media screen and (max-width: 767px) {
-    #titulo div{
+    #titulo div {
         padding: 7vw;
     }
 
-    #pt1 div h2{
+    #pt1 div h2 {
         font-size: 1.7rem;
     }
 
-    #pt1 div p{
-        font-size: 1.1rem;
-    }
-    #pt2 {
-        padding: 7vw;
-    }
-    #pt2 div p{
+    #pt1 div p {
         font-size: 1.1rem;
     }
 
-    #pt3
+    #pt2 {
+        padding: 7vw;
+    }
+
+    #pt2 div p {
+        font-size: 1.1rem;
+    }
+
+    #pt2 div img {
+        width: 45vw;
+    }
+
+    #pt3 {
+        padding: 7vw;
+    }
+
+    #pt3 div img {
+        width: 45vw;
+    }
+
+    #pt3 div p {
+        font-size: 1.1rem;
+    }
 
     footer {
         padding: 0;
@@ -390,11 +414,160 @@ footer p {
 
     #divContatos p {
         font-size: 0.8em;
-    } 
-}      
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header ul {
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .linksHeader nav {
+        display: block;
+    }
+
+    .linksHeader nav ul {
+        justify-content: center;
+    }
+
+    .linksHeader nav ul i {
+        margin-top: 10px;
+    }
+
+    #titulo div {
+        padding: 4vw;
+        height: 30vw;
+    }
+
+    #titulo h2 {
+        font-size: 1.8rem;
+    }
+
+    #pt1 {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #pt1Text {
+        width: 85vw;
+    }
+
+    #pt1Text h2 {
+        font-size: 1rem;
+    }
+
+    #pt1Img img {
+        width: 80vw;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #pt2 {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #pt2 div img {
+        width: 80vw;
+        height: auto;
+        margin-top: 20px;
+    }
 
 
-    /* CSS HEX 
+    #pt3 {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #pt3 div img {
+        width: 80vw;
+        height: auto;
+    }
+
+    #pt3 div p {
+        margin-top: 20px;
+    }
+
+
+    #pt4 {
+        padding: 8vw;
+    }
+
+    #pt4 h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #pt4 p {
+        font-size: 0.8em;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    #infoFooter div {
+        text-align: center;
+    }
+
+    #infoFooter div img {
+        width: 50vw;
+        
+    }
+
+    footer div a i {
+        /* aqui ainda estou chamando a tag do icone */
+        font-size: 1.5rem;
+        /* tamanho da fonte */
+
+    }
+
+    #divIcon ul a i:hover {
+        transition: 0.2s;
+        /* tempo de transição */
+        font-size: 1.6em;
+        /* tamanho da fonte */
+    }
+
+
+    #divInfo {
+        text-align: justify;
+    }
+
+    #divInfo h3 {
+        font-size: 0.8rem;
+    }
+
+    #divInfo p {
+        margin: auto 10px;
+        font-size: 0.7rem;
+    }
+
+    #divContatos {
+        margin-left: 12px;
+        font-size: 12px;
+    }
+
+
+    #divContatos p {
+        margin: 30px auto;
+        /* margem superior */
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+    #infoFooter div img {
+        width: 50vw;
+        
+    }
+}
+
+/* CSS HEX 
 --sandy-brown: #ff9945ff;
 --peach: #ffbe92ff;
 --mindaro: #fffba5ff;
