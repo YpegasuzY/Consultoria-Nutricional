@@ -13,3 +13,7 @@ https://nutrirogeriomaschiao.com.br/?gad_source=1&gclid=EAIaIQobChMIxavXnMHZhQMV
 https://ypegasuzy.github.io/Consultoria-Nutricional/home.html
 
 
+QRCode do site:
+<img src="imagens/QrCodeSite.png" alt="" width=150px>
+
+
