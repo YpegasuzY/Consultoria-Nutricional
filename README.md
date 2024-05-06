@@ -14,6 +14,6 @@ https://ypegasuzy.github.io/Consultoria-Nutricional/home.html
 
 
 QRCode do site:
-<img src="imagens/QrCodeSite.png" alt="" width=150px>
+<img src="qrcode_ypegasuzy.github.io.png" alt="" width=150px>
 
 
