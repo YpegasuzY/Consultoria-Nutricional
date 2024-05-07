@@ -95,8 +95,19 @@ header div img {
 
 #secao1 {
     background: url(https://dglab.com.br/wp-content/uploads/2021/09/Nutric%CC%A7a%CC%83o-funcional-840x400.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+#imgparada {
+    background: url(https://dglab.com.br/wp-content/uploads/2021/09/Nutric%CC%A7a%CC%83o-funcional-840x400.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 15vh;
+    text-align: center;
+
 }
 
 .imagem h1 {
