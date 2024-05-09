@@ -166,6 +166,12 @@ header div img {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
+#pt3 {
+background-color: grey;
+}
+
+
+
 
 #part-five {
     text-align: center;
@@ -174,7 +180,7 @@ header div img {
 }
 
 #blocos {
-    background-color: grey;
+    
     display: flex;
     font-size: 1.2rem;
     padding: 3rem;
