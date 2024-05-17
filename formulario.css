@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header {
+    padding: 3vh;
+    /* para dar respiro no header */
+    background-color: rgb(218, 179, 150);
+    /* cor de fundo */
+}
+
+#imagemHeader {
+    text-align: center;
+}
+
+header div img {
+    height: 30vh;
+}
+
+.linksHeader nav {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    justify-content: space-around;
+    /* para dar espaço nos itens de forma igual */
+}
+
+.linksHeader ul {
+    display: flex;
+    /* para deixar um ao lado do outro */
+    list-style: none;
+    /* para deixar sem estilo de lista */
+}
+
+.linksHeader ul li {
+    margin: 0 20px;
+    /* para dar margem */
+}
+
+.submenu {
+    display: none;
+    /* desaparecimento do conteúdo */
+    position: absolute;
+    /* deixar o título do topo */
+    background-color: rgba(255, 255, 255, 0.97);
+    /* cor de fundo */
+}
+
+.menu .submenu {
+    /* organização do menu */
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+.submenu a {
+    display: block;
+    /* deixa os submenus um embaixo do outro */
+    padding: 2vh;
+    text-align: center;
+}
+
+#direcionamento .submenu a:hover {
+    /* config. do menu */
+    background-color: orange;
+    transition: 0.5s;
+    color: white;
+}
+
+.menu:hover .submenu {
+    /* apenas apareça caso o mouse passe por cima */
+    display: block;
+}
+
+#direcionamento li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    color: black;
+    /* cor da fonte */
+}
+
+#icones li a {
+    text-decoration: none;
+    /* para tirar o estilo do texto */
+    font-size: 1.5em;
+    /* tamanho da fonte */
+}
+
+#icones li a:hover {
+    font-size: 1.55em;
+    /* tamanho da fonte */
+    transition: 0.4s;
+    /* tempo para mudar ao passar o mouse */
+}
